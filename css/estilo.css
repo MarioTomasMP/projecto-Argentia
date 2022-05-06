@@ -207,6 +207,11 @@ body {
     margin-bottom: 10%;
 }
 
+.br3 {
+    border: 10px solid #AD9263;
+    padding: 10px;
+}
+
 .subtitulo1 {
     text-align: center;
     text-transform: capitalize;
@@ -647,89 +652,100 @@ body {
 
 }
 
+.nosotros__info {
+    display: grid;
+    padding: 50px;
+    padding-top: 0%;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 50% 20% 60%;
+    justify-content: space-evenly;
+    grid-template-areas: 
+    "viñedos argentia tradicion"
+    "viñedos__t argentia__t tradicion__t"
+    "viñedos__txt argentia__txt tradicion__txt";
+
+}
+
 .nuestros__viñedos {
-    display: inline;
-    top: 0;
-    margin-bottom: 1%;
-    padding-right: 7%;
-    padding-left: 8.5%;
+    display: flex;
+    grid-area: viñedos;
+    justify-self: center;
+
 }
 
 .nuestros__viñedos__titulo {
-    display: inline;
-    margin-left: 8.5%;
+    display: flex;
+    grid-area: viñedos__t;
     font-size: small;
     font-weight: lighter;
     text-align: start;
     text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
 }
 .nuestros__viñedos__texto {
-    display: inline-block;
+    display: flex;
+    grid-area: viñedos__txt;
     text-transform: lowercase;
     font-size: small;
-    margin-left: 8.5%;
-    padding-top: 2%;
+    align-self: flex-start;
+    justify-self: center;
+
 }
 
 .argentia__nosotros {
-    padding-right: 5%;
-    margin-bottom: 1%;
+    display: flex;
+    grid-area: argentia;
+    justify-self: center;
 }
 
 .argentia__nosotros__titulo {
-    display: inline;
-    margin-left: 23%;
+    display: flex;
+    grid-area: argentia__t;
     font-size: small;
     font-weight: lighter;
     text-align: start;
     text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
 }
 
 .argentia__nosotros__texto {
-    display: inline-block;
+    display: flex;
+    grid-area: argentia__txt;
     text-transform: lowercase;
     font-size: small;
-    margin-left: 3%;
+    align-self: flex-start;
+    justify-self: center;
+    
 }
 
 
 .tradi__tecno {
-    padding-left: 2%;
-    margin-bottom: 1%;
+    display: flex;
+    grid-area: tradicion;
+    justify-self: center;
 }
 
 .tradi__tecno__titulo {
-    display: inline;
-    margin-left: 21.8%;
+    display: flex;
+    grid-area: tradicion__t;
     font-size: small;
     font-weight: lighter;
     text-align: start;
     text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
 }
 
 .tradi__tecno__texto {
-    display: inline-block;
+    display: flex;
+    grid-area: tradicion__txt;
     text-transform: lowercase;
     font-size: small;
-    margin-left: 2%;
-    padding-top: 2%;
+    align-self: flex-start;
+    justify-self: center;
 }
-
-.footer__logo__nosotros {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-top: 129%;
-    margin-left: 40%;
-    padding-bottom: 4%;
-    width: 25%;
-    background-color: white;
-}
-
-
-
 
 .subtitulo1__producto { 
     margin-top: 15%;
