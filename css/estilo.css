@@ -626,6 +626,7 @@ body {
     font-size: small;
     text-align: center;
     text-transform: capitalize;
+    
 }
 
 .subtitulo3 { 
@@ -705,7 +706,8 @@ body {
 .banner__nosotros {
     background-color: white;
     color: white;
-    padding: 6% 9% 5% 9%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .subtitulo2__nosotros { 
