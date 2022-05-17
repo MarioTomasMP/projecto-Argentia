@@ -1062,6 +1062,8 @@ body {
   .nav {
     display: none;
   }
+  
+
   .header__redes {
     display: none;
   }
@@ -1295,8 +1297,8 @@ body {
     align-items: center;
     justify-items: center;
     width: 100%;
-    height: 15%;
-    z-index: 13;
+    height: 22%;
+    z-index: 20;
     align-content: center;
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -1321,10 +1323,39 @@ body {
   .nav {
     display: none;
   }
+
+  #lateral {
+    display: flex;
+    column-gap: 30px;
+    background-color: white;
+    width: 85%;
+    height: 48%;
+    position: fixed;
+    top: -100vh;
+    left: 2.7rem;
+    z-index: 14;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+    transition: top 1s;
+  }
+
+  #lateral:target {
+    top: 7rem;
+  }
+  .enlace7 {
+    display: inline;
+    padding-right: 1rem;
+    color: black;
+    text-decoration: none;
+  }
+
   .banner {
     background-color: white;
     color: white;
-    margin-top: 30%;
+    margin-top: 50%;
     padding-bottom: 4%;
     top: 0;
     right: 0;
@@ -1337,7 +1368,7 @@ body {
   .novedades {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 20% 5% auto 25% 5% auto 30% 5% auto 30% 5% auto;
+    grid-template-rows: 20% 5% auto 25% 5% auto 25% 5% auto 25% 5% auto;
     grid-template-areas:
         "curso . . ."
         "curso__ti . . ."
@@ -1417,7 +1448,7 @@ body {
   }
   .info {
     display: grid;
-    margin-top: 65%;
+    margin-top: 90%;
     margin-bottom: 55%;
     grid-template-columns: auto;
     grid-template-rows: 50% 8% 8% 8% 50% 8% 10%;
@@ -1468,6 +1499,12 @@ body {
   .tradicion__texto__mq2 {
     grid-area: tradi__tx;
     display: flex;
+  }
+  .subtitulo2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+    margin-top: 98%;
   }
   .producto {
     display: grid;
@@ -1568,6 +1605,15 @@ body {
     grid-area: argen5;
     display: flex;
   }
+  .subtitulo1__mq {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+    margin-top: 33rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #AD9263;
+}
+
   .nosotros__info {
   margin-bottom: 60%;
   display: grid;
