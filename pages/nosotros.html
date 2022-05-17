@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bodega Argentia-Bodega Argentia</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">  
+
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
 
     <!-- vinculo con bootstrap--cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -18,11 +21,21 @@
     <header>
         <div class="header">
             <p class="header__texto">fundado en 1880 en mendoza</p>
+            <a href="#" class="header__bar">
+                <span class="jam jam-menu"></span>
+            </a>
             <img class="header__logo" src="../imagenes/logo_bodegaargentia_normal.png" alt="logo_bodega">
+            
             <div class="header__redes">
-                <a class="redes__facebook" href="http://www.facebook.com/BodegasYVinedosARGENTIA/">Facebook</a>
-                <a class="redes__instagram" href="https://www.instagram.com/bodegaargentia/">Instagram</a>
-                <a class="redes__whatsapp" href="https://api.whatsapp.com/send?phone=5492616301443&text=Hola%20!!%20%C2%BFC%C3%B3mo%20te%20podemos%20ayudar%3F">Whatsapp</a>
+                <a class="redes__facebook" href="http://www.facebook.com/BodegasYVinedosARGENTIA/">
+                    <span class="jam jam-facebook"></span>
+                </a>
+                <a class="redes__instagram" href="https://www.instagram.com/bodegaargentia/">
+                    <span class="jam jam-instagram"></span>
+                </a>
+                <a class="redes__whatsapp" href="https://api.whatsapp.com/send?phone=5492616301443&text=Hola%20!!%20%C2%BFC%C3%B3mo%20te%20podemos%20ayudar%3F">
+                    <span class="jam jam-whatsapp"></span>
+                </a>
             </div>
             <nav class="nav">
                 <a class="enlace1__negro" href="../index.html">Home</a>
@@ -36,7 +49,7 @@
     </header>
     <main>
         <section class="seccion">
-            <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5492616301443&text=Hola%20!!%20%C2%BFC%C3%B3mo%20te%20podemos%20ayudar%3F" target="blank">Whatsapp</a>
+            <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5492616301443&text=Hola%20!!%20%C2%BFC%C3%B3mo%20te%20podemos%20ayudar%3F" target="blank"><span class="jam jam-whatsapp"></span></a>
             <br>
             <h2 class="subtitulo1__nosotros">Nosotros</h2>
             <img class="banner__nosotros" src="../imagenes/banner_bodega_nosotros.jpg" alt="Banner_de_la_Bodega">
@@ -45,45 +58,22 @@
             <p class="subtitulo3__nosotros" >1880</p>
         </section>
         <section class="seccion">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-4">
-                        <img src="../imagenes/vieñedoargentia-nosotros.jpg" alt="Nuestros_Viñedos" width="90%" height="36%">
-                        <h3 class="h6 text-md-center text-uppercase">Nuestros Viñedos</h3>
-                        <p class="text-ssm-center text-lowercase">Contamos con viñedos propios ubicados en el departamento Maipú, con lo cual pretendemos revalorizarlos vinos de alta gama de la primera zona vitivinícola de Mendoza. El clima seco de la región, la limpidez de la atomósfera, la gran amplitud térmica entre el día y la noche, el agua de riego extremadamente pura proveniente de la Cordillera de los Andes y los suelos   areno-arcillosos, proporcionan el marco adecuado para el desarrollo de vídes de calidad insuperable.</p>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <img src="../imagenes/argentia_nosotros.jpg" alt="Argentia">
-                        <h3 class="h6 text-md-center text-uppercase">Argentia</h3>
-                        <p class="text-ssm-center text-lowercase">Nuestro establecimiento fue fundado en el año 1880, es
-                        uno de los patrimonios arquitectónicos de la industria vitivinícola y es nuestro compromiso resguardarlo y hacerlo conocer. Nuestros productos son el fruto del
-                        trabajo serio y profesional, mejorando año tras año mediante el perfeccionamiento y la evolución constante de nuestras técnicas.</p>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <img src="../imagenes/argentia_nosotros_2.jpg" alt="Argentia">
-                        <h3 class="h6 text-md-center text-uppercase">Tradición y tecnología</h3>
-                        <p class="text-ssm-center text-lowercase"></p>Hemos incorporado tecnología de vanguardia para elaborar vinos de excelencia. Nuestros vinos son el resultado de la combinación de procesos altamente
-                        tecnificados y condiciones naturales privilegiadas que nospermiten cumplir con los estándares más exigentes.</p>
-                    </div>
-                </div>
-            </div>
-                <!-- <div class="nosotros__info">
-                    <img class="nuestros__viñedos" src="../imagenes/vieñedoargentia-nosotros.jpg" alt="Nuestros_Viñedos">
-                    <img class="argentia__nosotros" src="../imagenes/argentia_nosotros.jpg" alt="Argentia">
-                    <img class="argentia__nosotros" src="../imagenes/argentia_nosotros.jpg" alt="Argentia">
+            <div class="nosotros__info">
+                <img class="nuestros__viñedos nuestros__viñedos__mq1 nuestros__viñedos__mq2" src="../imagenes/vieñedoargentia-nosotros.jpg" alt="Nuestros_Viñedos">
+                <img class="argentia__nosotros argentia__nosotros__mq1 argentia__nosotros__mq2" src="../imagenes/argentia_nosotros.jpg" alt="Argentia">
+                <img class="tradi__tecno tradi__tecno__mq1 tradi__tecno__mq2" src="../imagenes/argentia_nosotros_2.jpg" alt="Tradicion_y_cultura">
                 
-                    <h3 class="nuestros__viñedos__titulo">Nuestros Viñedos</h3>
-                    <h3 class="argentia__nosotros__titulo">Argentia</h3>
-                    <h3 class="tradi__tecno__titulo">Tradición y tecnología</h3>  
+                <h3 class="nuestros__viñedos__titulo nuestros__viñedos__titulo__mq1 nuestros__viñedos__titutlo__mq2">Nuestros Viñedos</h3>
+                <h3 class="argentia__nosotros__titulo argentia__nosotros__titulo__mq1 argentia__nosotros__titulo__mq2">Argentia</h3>
+                <h3 class="tradi__tecno__titulo tradi__tecno__titulo__mq1 tradi__tecno__titulo__mq2">Tradición y tecnología</h3>  
 
-                    <p class="nuestros__viñedos__texto">Contamos con viñedos propios ubicados en el departamento Maipú, con lo cual pretendemos revalorizarlos vinos de alta gama de la primera zona vitivinícola de Mendoza. El clima seco de la región, la limpidez de la atomósfera, la gran amplitud térmica entre el día y la noche, el agua de riego extremadamente pura proveniente de la Cordillera de los Andes y los suelos   areno-arcillosos, proporcionan el marco adecuado para el desarrollo de vídes de calidad insuperable.
-                    </p>
-                    <p class="argentia__nosotros__texto">Nuestro establecimiento fue fundado en el año 1880, es
-                    uno de los patrimonios arquitectónicos de la industria vitivinícola y es nuestro compromiso resguardarlo y hacerlo conocer. Nuestros productos son el fruto del
-                    trabajo serio y profesional, mejorando año tras año mediante el perfeccionamiento y la evolución constante de nuestras técnicas.</p>
-                    <p class="tradi__tecno__texto">Hemos incorporado tecnología de vanguardia para elaborar vinos de excelencia. Nuestros vinos son el resultado de la combinación de procesos altamente
-                    tecnificados y condiciones naturales privilegiadas que nospermiten cumplir con los estándares más exigentes.</p>
-                </div> -->
+                <p class="nuestros__viñedos__texto nuestros__viñedos__texto__mq1 nuestros__viñedos__texto__mq2.">Contamos con viñedos propios ubicados en el departamento Maipú, con lo cual pretendemos revalorizarlos vinos de alta gama de la primera zona vitivinícola de Mendoza. El clima seco de la región, la limpidez de la atomósfera, la gran amplitud térmica entre el día y la noche, el agua de riego extremadamente pura proveniente de la Cordillera de los Andes y los suelos   areno-arcillosos, proporcionan el marco adecuado para el desarrollo de vídes de calidad insuperable.</p>
+                <p class="argentia__nosotros__texto argentia__nosotros__texto__mq1 argentia__nosotros__texto__mq2">Nuestro establecimiento fue fundado en el año 1880, es
+                uno de los patrimonios arquitectónicos de la industria vitivinícola y es nuestro compromiso resguardarlo y hacerlo conocer. Nuestros productos son el fruto del
+                trabajo serio y profesional, mejorando año tras año mediante el perfeccionamiento y la evolución constante de nuestras técnicas.</p>
+                <p class="tradi__tecno__texto tradi__tecno__texto__mq1 tradi__tecno__texto__mq2">Hemos incorporado tecnología de vanguardia para elaborar vinos de excelencia. Nuestros vinos son el resultado de la combinación de procesos altamente
+                tecnificados y condiciones naturales privilegiadas que nospermiten cumplir con los estándares más exigentes.</p>
+            </div>
         </section>
         <br>
     </main>
