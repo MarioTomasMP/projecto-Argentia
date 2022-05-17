@@ -1531,7 +1531,7 @@ body {
     justify-items: center;
     justify-content: center;
     align-content: space-between;
-}
+  }
   .vinoblanco__mq2 {
     display: flex;
     justify-content: center;
@@ -1609,17 +1609,17 @@ body {
     text-align: center;
     text-transform: capitalize;
     font-size: larger;
-    margin-top: 33rem;
+    margin-top: 38rem;
     padding-bottom: 4rem;
     border-bottom: 1px solid #AD9263;
 }
 
   .nosotros__info {
-  margin-bottom: 60%;
+  margin-bottom: 80%;
   display: grid;
   padding: 20px;
   grid-template-columns: 100%;
-  grid-template-rows: 25% 6% 15% 25% 5% 15% 25% 5% 15%;
+  grid-template-rows: 20% 1% 25% 20% 5% 20% 20% 5% 18%;
   justify-content: center;
   grid-template-areas:
   "viñedos ."
@@ -1637,8 +1637,8 @@ body {
 }
   .nuestros__viñedos__mq2 {
     display: flex;
-    width: 90%;
-    height: 80%;
+    width: 300px;
+    height: 50%;
     grid-area: viñedos;
     justify-self: center;
   }
@@ -1669,8 +1669,8 @@ body {
   .argentia__nosotros__mq2 {
     display: flex;
     grid-area: argentia;
-    width: 90%;
-    height: 90%;
+    width: 300px;
+    height: 50%;
     justify-self: center;
   }
   
@@ -1700,8 +1700,8 @@ body {
   .tradi__tecno__mq2 {
     display: flex;
     grid-area: tradicion;
-    width: 90%;
-    height: 90%;
+    width: 300px;
+    height: 50%;;
     justify-self: center;
   }
   
