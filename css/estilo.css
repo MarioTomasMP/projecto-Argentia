@@ -178,6 +178,10 @@ body {
   text-decoration: none;
 }
 
+.enlace7 {
+  display: none;
+}
+
 .header__redes {
   display: flex;
   padding: 10px;
@@ -1063,6 +1067,33 @@ body {
     display: none;
   }
   
+  #lateral {
+    display: flex;
+    column-gap: 30px;
+    background-color: white;
+    width: 85%;
+    height: 48%;
+    position: fixed;
+    top: -100vh;
+    left: 2.7rem;
+    z-index: 14;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+    transition: top 1s;
+  }
+
+  #lateral:target {
+    top: 7rem;
+  }
+  .enlace7 {
+    display: inline;
+    padding-right: 1rem;
+    color: black;
+    text-decoration: none;
+  }
 
   .header__redes {
     display: none;
