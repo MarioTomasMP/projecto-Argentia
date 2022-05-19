@@ -1,0 +1,400 @@
+.whatsapp {
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    padding-top: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-size:30px;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 12;
+  }
+  
+  .banner {
+    /* display: flex;
+      flex-direction: row;
+      align-content: center;
+      background-color: white;
+      color: white;
+      margin: 1px;
+      padding: 15%;
+      padding-bottom: 4%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      position: relative; */
+    background-color: white;
+    color: white;
+    margin-top: 18%;
+    padding-bottom: 4%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .br {
+    padding-bottom: 10%;
+  }
+  
+  .br2 {
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+  }
+  
+  .br3 {
+    border: 10px solid $color-principal-dorado;
+    padding: 10px;
+  }
+  
+  .subtitulo1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid $color-principal-dorado;
+  }
+  
+  .novedades {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: 150px 15% 25%;
+    justify-content: space-evenly;
+    justify-items: stretch;
+    align-content: space-around;
+    grid-template-areas: "curso face insta espumosa"
+   "curso__t face__t insta__t espumosa__t"
+   "curso__txt face__txt insta__txt espumosa__txt";
+    margin-bottom: 10%;
+    align-items: stretch;
+  }
+  
+  .cursos__imagen {
+    display: flex;
+    grid-area: curso;
+  }
+  
+  .cursos__titulo {
+    display: flex;
+    padding: 5px;
+    grid-area: curso__t;
+    text-transform: lowercase;
+    font-size: medium;
+    justify-content: center;
+  }
+  
+  .cursos__texto {
+    display: flex;
+    padding: 5px;
+    grid-area: curso__txt;
+    text-transform: lowercase;
+    font-size: small;
+    justify-content: center;
+    align-self: flex-start;
+  }
+  
+  .portada__facebook {
+    display: flex;
+    grid-area: face;
+  }
+  
+  .portada__facebook__titulo {
+    display: flex;
+    padding: 5px;
+    grid-area: face__t;
+    text-transform: lowercase;
+    font-size: medium;
+    justify-content: center;
+  }
+  
+  .facebook__texto {
+    display: flex;
+    padding: 5px;
+    grid-area: face__txt;
+    text-transform: lowercase;
+    font-size: small;
+    justify-content: center;
+    align-self: flex-start;
+  }
+  
+  .portada__insta {
+    display: flex;
+    width: 30%;
+  }
+  
+  .portada__insta__titulo {
+    display: flex;
+    padding: 5px;
+    grid-area: insta__t;
+    text-transform: lowercase;
+    font-size: medium;
+    justify-content: center;
+  }
+  
+  .portada__insta__texto {
+    display: flex;
+    padding: 5px;
+    grid-area: insta__txt;
+    text-transform: lowercase;
+    font-size: small;
+    justify-content: center;
+    align-self: flex-start;
+  }
+  
+  .espumosa {
+    display: flex;
+    grid-area: espumosa;
+  }
+  
+  .espumosa__titulo {
+    display: flex;
+    padding: 5px;
+    grid-area: espumosa__t;
+    text-transform: lowercase;
+    font-size: medium;
+    justify-content: center;
+  }
+  
+  .espumosa__texto {
+    display: flex;
+    padding: 5px;
+    grid-area: espumosa__txt;
+    text-transform: lowercase;
+    font-size: small;
+    justify-content: center;
+    align-self: flex-start;
+  }
+  
+  .info {
+    display: grid;
+    grid-template-columns: 30% 2% 30%;
+    grid-template-rows: 50% 25% 35% 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-between;
+    justify-items: center;
+    grid-template-areas: "evento . tradi"
+   "evento__t . tradi__t"
+   "evento__txt . tradi__txt"
+   "evento__mi . .";
+  }
+  
+  .eventos {
+    display: flex;
+    grid-area: evento;
+    padding: 5%;
+  }
+  
+  .eventos__titulo {
+    display: flex;
+    grid-area: evento__t;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: medium;
+    justify-content: center;
+  }
+  
+  .eventos__texto {
+    color: #A6A79D;
+    display: flex;
+    grid-area: evento__txt;
+    text-align: justify;
+    text-transform: inherit;
+    font-size: smaller;
+    justify-content: center;
+    align-self: flex-start;
+  }
+  
+  .eventos__masinfo {
+    display: flex;
+    grid-area: evento__txt;
+    text-align: justify;
+    text-transform: inherit;
+    font-size: smaller;
+    justify-content: center;
+  }
+  
+  .tradicion {
+    display: flex;
+    grid-area: tradi;
+    padding: 5%;
+  }
+  
+  .tradicion__titulo {
+    display: flex;
+    grid-area: tradi__t;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: medium;
+    justify-content: center;
+  }
+  
+  .tradicion__texto {
+    color: #A6A79D;
+    display: flex;
+    grid-area: tradi__txt;
+    text-align: justify;
+    text-transform: inherit;
+    font-size: smaller;
+    justify-content: center;
+    align-self: flex-start;
+  }
+  
+  .subtitulo2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+    margin-top: 4rem;
+  }
+  
+  .producto {
+    display: grid;
+    padding: 3%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 70% 23% 15%;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    grid-template-areas: "blanco malbec rose dulce personalizado "
+   "blanco__t malbec__t rose__t dulce__t personalizado__t"
+   "argentia1 argentia2 argentia3 argentia4 argentia5";
+    justify-items: center;
+    align-content: center;
+  }
+  
+  .vinoblanco {
+    display: flex;
+    grid-area: blanco;
+    width: 105%;
+  }
+  
+  .vinoblanco__titulo {
+    display: flex;
+    grid-area: blanco__t;
+    font-size: small;
+    text-align: start;
+    text-transform: capitalize;
+    justify-content: center;
+  }
+  
+  .argentia1 {
+    color: $color-secundario-gris;
+    display: flex;
+    grid-area: argentia1;
+    font-size: small;
+    justify-content: center;
+    align-self: baseline;
+  }
+  
+  .argentia2 {
+    color:  $color-secundario-gris;
+    display: flex;
+    grid-area: argentia2;
+    font-size: small;
+    justify-content: center;
+    align-self: baseline;
+  }
+  
+  .argentia3 {
+    color:  $color-secundario-gris;
+    display: flex;
+    grid-area: argentia3;
+    font-size: small;
+    justify-content: center;
+    align-self: baseline;
+  }
+  
+  .argentia4 {
+    color:  $color-secundario-gris;
+    display: flex;
+    grid-area: argentia4;
+    font-size: small;
+    justify-content: center;
+    align-self: baseline;
+  }
+  
+  .argentia5 {
+    color:  $color-secundario-gris;
+    display: flex;
+    grid-area: argentia5;
+    font-size: small;
+    justify-content: flex-start;
+    align-self: baseline;
+  }
+  
+  .vinomalbec {
+    display: flex;
+    grid-area: malbec;
+    width: 105%;
+  }
+  
+  .vinomalbec__titulo {
+    display: flex;
+    grid-area: malbec__t;
+    font-size: small;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+  }
+  
+  .vinorose {
+    display: flex;
+    grid-area: rose;
+    width: 115%;
+  }
+  
+  .vinorose__titulo {
+    display: flex;
+    grid-area: rose__t;
+    font-size: small;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+  }
+  
+  .espumantedulce {
+    display: flex;
+    grid-area: dulce;
+    width: 75%;
+  }
+  
+  .espumantedulce__titulo {
+    display: flex;
+    grid-area: dulce__t;
+    font-size: small;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .vinopersonalizado {
+    display: flex;
+    grid-area: personalizado;
+    width: 50%;
+    justify-content: center;
+  }
+  
+  .vinopersonalizado__titulo {
+    display: flex;
+    grid-area: personalizado__t;
+    font-size: small;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .subtitulo3 {
+    color: #FFBD21;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+    margin-top: 4rem;
+  }

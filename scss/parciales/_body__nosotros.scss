@@ -1,0 +1,122 @@
+.subtitulo1__nosotros {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+    margin-top: 15%;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #AD9263;
+  }
+  
+  .banner__nosotros {
+    background-color: white;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .subtitulo2__nosotros {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+  }
+  
+  .subtitulo3__nosotros {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 2%;
+    padding-bottom: 7%;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
+  .nosotros__info {
+    display: grid;
+    padding: 50px;
+    padding-top: 0%;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 50% 20% 60%;
+    justify-content: space-evenly;
+    grid-template-areas: "viñedos argentia tradicion"
+   "viñedos__t argentia__t tradicion__t"
+   "viñedos__txt argentia__txt tradicion__txt";
+  }
+  
+  .nuestros__viñedos {
+    display: flex;
+    grid-area: viñedos;
+    justify-self: center;
+
+    &__titulo {
+      display: flex;
+      grid-area: viñedos__t;
+      font-size: small;
+      font-weight: lighter;
+      text-align: start;
+      text-transform: uppercase;
+      align-self: center;
+      justify-self: center;
+    }
+    
+    &__texto {
+      display: flex;
+      grid-area: viñedos__txt;
+      text-transform: lowercase;
+      font-size: small;
+      align-self: flex-start;
+      justify-self: center;
+    }
+  }
+  
+  .argentia__nosotros {
+    display: flex;
+    grid-area: argentia;
+    justify-self: center;
+
+    &__titulo {
+      display: flex;
+      grid-area: argentia__t;
+      font-size: small;
+      font-weight: lighter;
+      text-align: start;
+      text-transform: uppercase;
+      align-self: center;
+      justify-self: center;
+    }
+    
+    &__texto {
+      display: flex;
+      grid-area: argentia__txt;
+      text-transform: lowercase;
+      font-size: small;
+      align-self: flex-start;
+      justify-self: center;
+    }  
+
+  }
+  
+  .tradi__tecno {
+    display: flex;
+    grid-area: tradicion;
+    justify-self: center;
+
+    &__titulo {
+      display: flex;
+      grid-area: tradicion__t;
+      font-size: small;
+      font-weight: lighter;
+      text-align: start;
+      text-transform: uppercase;
+      align-self: center;
+      justify-self: center;
+    }
+    
+    &__texto {
+      display: flex;
+      grid-area: tradicion__txt;
+      text-transform: lowercase;
+      font-size: small;
+      align-self: flex-start;
+      justify-self: center;
+    }
+  }
+  

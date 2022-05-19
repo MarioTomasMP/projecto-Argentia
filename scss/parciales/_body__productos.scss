@@ -1,0 +1,141 @@
+.subtitulo1__producto {
+    margin-top: 18%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+  }
+  
+  .productos__grilla {
+    display: grid;
+    margin-bottom: 2%;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 40% 5% 10% 40% 5% 10%;
+    grid-template-areas:
+        "blanco malbec rose"
+        "blanco__t malbec__t rose__t"
+        "argen1 argen2 argen3"
+        "dulce personalizado ."
+        "dulce__t personalizado__t ."
+        "argen4 argen5 .";
+    justify-items: center;
+    align-content: space-between;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .vinoblanco__producto {
+    display: flex;
+    grid-area: blanco;
+    padding: 10px;
+    width: 102%;
+
+    &__titulo {
+      display: flex;
+      grid-area: blanco__t;
+      padding: 10px;
+      font-size: small;
+      text-align: start;
+      text-transform: capitalize;
+    }
+  }
+  
+  .vinomalbec__producto {
+    display: flex;
+    grid-area: malbec;
+    padding: 10px;
+    width: 94%;
+
+    &__titulo {
+      display: flex;
+      grid-area: malbec__t;
+      padding: 10px;
+      font-size: small;
+      text-align: start;
+      text-transform: capitalize;
+    }
+  }
+  
+  .vinorose__producto {
+    display: flex;
+    grid-area: rose;
+    padding: 10px;
+    width: 112%;
+
+    &__titulo {
+      display: flex;
+      grid-area: rose__t;
+      padding: 10px;
+      font-size: small;
+      text-align: start;
+      text-transform: capitalize;
+    }
+    
+  }
+
+  .espumantedulce__producto {
+    display: flex;
+    grid-area: dulce;
+    padding: 10px;
+    width: 44%;
+
+    &__titulo {
+      display: flex;
+      grid-area: dulce__t;
+      padding: 10px;
+      font-size: small;
+      text-align: start;
+      text-transform: capitalize;
+    }
+  }
+
+  .vinopersonalizado__producto {
+    display: flex;
+    grid-area: personalizado;
+    padding: 10px;
+    width: 47%;
+
+    &__titulo {
+      display: flex;
+      grid-area: personalizado__t;
+      padding: 10px;
+      font-size: small;
+      text-align: start;
+      text-transform: capitalize;
+    }
+  }
+  
+  .argentia1__producto {
+    color:  $color-secundario-gris;
+    display: flex;
+    grid-area: argen1;
+    font-size: small;
+  }
+  
+  .argentia2__producto {
+    color:  $color-secundario-gris;
+    display: flex;
+    grid-area: argen2;
+    font-size: small;
+  }
+  
+  .argentia3__producto {
+    color:  $color-secundario-gris;
+    display: flex;
+    grid-area: argen3;
+    font-size: small;
+  }
+  
+  .argentia4__producto {
+    color:  $color-secundario-gris;
+    display: flex;
+    grid-area: argen4;
+    font-size: small;
+  }
+  
+  .argentia5__producto {
+    color:  $color-secundario-gris;
+    display: flex;
+    grid-area: argen5;
+    font-size: small;
+  }

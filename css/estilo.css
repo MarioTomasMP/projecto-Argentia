@@ -21,23 +21,28 @@ body {
   padding: 2rem 0;
 }
 
+.seccion__titulo {
+  text-align: center;
+  padding: 2rem 0;
+}
+
 .header {
   /* position: fixed;
-    background-color: white;
-    padding: 0.5rem;
-    padding-top: 2rem;
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas: 
-    "header__txt header__logo header__redes"
-    "nav nav nav";
-    justify-content: space-between;
-    align-items: center;
-    justify-items: center;
-    width: 100%;
-    height: 26%;
-    z-index: 13; */
+      background-color: white;
+      padding: 0.5rem;
+      padding-top: 2rem;
+      display: grid;
+      grid-template-columns: 25% 50% 25%;
+      grid-template-rows: 50% 50%;
+      grid-template-areas: 
+      "header__txt header__logo header__redes"
+      "nav nav nav";
+      justify-content: space-between;
+      align-items: center;
+      justify-items: center;
+      width: 100%;
+      height: 26%;
+      z-index: 13; */
   position: fixed;
   background-color: white;
   padding: 0.5rem;
@@ -45,8 +50,7 @@ body {
   display: grid;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 50% 40%;
-  grid-template-areas: "header__txt header__logo header__redes"
- "nav nav nav";
+  grid-template-areas: "header__txt header__logo header__redes" "nav nav nav";
   justify-content: space-between;
   align-items: center;
   justify-items: center;
@@ -201,8 +205,8 @@ body {
   padding-right: 7px;
   color: #AD9263;
   text-align: start;
-  font-size:25px;
-  text-decoration: none
+  font-size: 25px;
+  text-decoration: none;
 }
 
 .redes__instagram {
@@ -213,7 +217,7 @@ body {
   padding-left: 7px;
   padding-right: 7px;
   text-align: center;
-  font-size:25px;
+  font-size: 25px;
   text-decoration: none;
 }
 
@@ -225,7 +229,7 @@ body {
   padding-left: 7px;
   padding-right: 7px;
   text-align: end;
-  font-size:25px;
+  font-size: 25px;
   text-decoration: none;
 }
 
@@ -237,7 +241,7 @@ body {
   padding-left: 8px;
   padding-right: 8px;
   text-align: center;
-  font-size:30px;
+  font-size: 30px;
   text-decoration: none;
   display: inline-block;
   position: fixed;
@@ -248,19 +252,19 @@ body {
 
 .banner {
   /* display: flex;
-    flex-direction: row;
-    align-content: center;
-    background-color: white;
-    color: white;
-    margin: 1px;
-    padding: 15%;
-    padding-bottom: 4%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    position: relative; */
+      flex-direction: row;
+      align-content: center;
+      background-color: white;
+      color: white;
+      margin: 1px;
+      padding: 15%;
+      padding-bottom: 4%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      position: relative; */
   background-color: white;
   color: white;
   margin-top: 18%;
@@ -303,9 +307,7 @@ body {
   justify-content: space-evenly;
   justify-items: stretch;
   align-content: space-around;
-  grid-template-areas: "curso face insta espumosa"
- "curso__t face__t insta__t espumosa__t"
- "curso__txt face__txt insta__txt espumosa__txt";
+  grid-template-areas: "curso face insta espumosa" "curso__t face__t insta__t espumosa__t" "curso__txt face__txt insta__txt espumosa__txt";
   margin-bottom: 10%;
   align-items: stretch;
 }
@@ -414,10 +416,7 @@ body {
   align-items: center;
   align-content: space-between;
   justify-items: center;
-  grid-template-areas: "evento . tradi"
- "evento__t . tradi__t"
- "evento__txt . tradi__txt"
- "evento__mi . .";
+  grid-template-areas: "evento . tradi" "evento__t . tradi__t" "evento__txt . tradi__txt" "evento__mi . .";
 }
 
 .eventos {
@@ -496,9 +495,7 @@ body {
   justify-content: start;
   align-items: center;
   position: relative;
-  grid-template-areas: "blanco malbec rose dulce personalizado "
- "blanco__t malbec__t rose__t dulce__t personalizado__t"
- "argentia1 argentia2 argentia3 argentia4 argentia5";
+  grid-template-areas: "blanco malbec rose dulce personalizado " "blanco__t malbec__t rose__t dulce__t personalizado__t" "argentia1 argentia2 argentia3 argentia4 argentia5";
   justify-items: center;
   align-content: center;
 }
@@ -720,9 +717,7 @@ body {
   grid-template-columns: repeat(3, 30%);
   grid-template-rows: 50% 20% 60%;
   justify-content: space-evenly;
-  grid-template-areas: "viñedos argentia tradicion"
- "viñedos__t argentia__t tradicion__t"
- "viñedos__txt argentia__txt tradicion__txt";
+  grid-template-areas: "viñedos argentia tradicion" "viñedos__t argentia__t tradicion__t" "viñedos__txt argentia__txt tradicion__txt";
 }
 
 .nuestros__viñedos {
@@ -816,13 +811,7 @@ body {
   margin-bottom: 2%;
   grid-template-columns: repeat(3, 30%);
   grid-template-rows: 40% 5% 10% 40% 5% 10%;
-  grid-template-areas:
-      "blanco malbec rose"
-      "blanco__t malbec__t rose__t"
-      "argen1 argen2 argen3"
-      "dulce personalizado ."
-      "dulce__t personalizado__t ."
-      "argen4 argen5 .";
+  grid-template-areas: "blanco malbec rose" "blanco__t malbec__t rose__t" "argen1 argen2 argen3" "dulce personalizado ." "dulce__t personalizado__t ." "argen4 argen5 .";
   justify-items: center;
   align-content: space-between;
   justify-content: center;
@@ -944,19 +933,6 @@ body {
   font-size: small;
 }
 
-/* .footer__logo__producto {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-top: 85%;
-  margin-left: 40%;
-  padding-bottom: 4%;
-  width: 25%;
-  background-color: white;
-} */
-
 .texto1__resto {
   color: #898B89;
   text-align: center;
@@ -1006,19 +982,6 @@ body {
   margin-left: 5%;
 }
 
-.footer__logo__resto {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-top: 78%;
-  margin-left: 40%;
-  padding-bottom: 4%;
-  width: 25%;
-  background-color: white;
-}
-
 /* media querys */
 /* vista tablet */
 @media screen and (max-width: 1023px) {
@@ -1026,13 +989,11 @@ body {
     width: 80%;
     margin: 0 auto;
   }
-
   body {
     font-family: 'Merriweather', sans-serif;
     background-color: white;
     color: black;
   }
-
   .header {
     position: fixed;
     background-color: white;
@@ -1041,9 +1002,7 @@ body {
     display: grid;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 30%;
-    grid-template-areas:
-        "header__bar header__logo ."
-        ". . .";
+    grid-template-areas: "header__bar header__logo ." ". . .";
     justify-content: start;
     align-items: center;
     justify-items: center;
@@ -1066,7 +1025,6 @@ body {
   .nav {
     display: none;
   }
-  
   #lateral {
     display: flex;
     column-gap: 30px;
@@ -1084,7 +1042,6 @@ body {
     flex-direction: column;
     transition: top 1s;
   }
-
   #lateral:target {
     top: 7rem;
   }
@@ -1094,7 +1051,6 @@ body {
     color: black;
     text-decoration: none;
   }
-
   .header__redes {
     display: none;
   }
@@ -1129,10 +1085,7 @@ body {
     align-items: end;
     justify-items: stretch;
     align-content: stretch;
-    grid-template-areas: "evento . tradi"
-    "evento__t . tradi__t"
-    "evento__txt . tradi__txt"
-    "evento__mi . .";
+    grid-template-areas: "evento . tradi" "evento__t . tradi__t" "evento__txt . tradi__txt" "evento__mi . .";
   }
   .producto {
     display: grid;
@@ -1144,12 +1097,8 @@ body {
     align-content: space-between;
     justify-items: center;
     position: relative;
-    grid-template-areas: 
-    "blanco malbec rose dulce personalizado "
-    "blanco__t malbec__t rose__t dulce__t personalizado__t"
-    "argentia1 argentia2 argentia3 argentia4 argentia5";
+    grid-template-areas: "blanco malbec rose dulce personalizado " "blanco__t malbec__t rose__t dulce__t personalizado__t" "argentia1 argentia2 argentia3 argentia4 argentia5";
   }
-
   .subtitulo1__nosotros {
     text-align: center;
     text-transform: capitalize;
@@ -1157,7 +1106,6 @@ body {
     margin-top: 20%;
     border-bottom: 1px solid #AD9263;
   }
-
   .banner__nosotros {
     background-color: white;
     color: white;
@@ -1166,159 +1114,138 @@ body {
     justify-content: center;
   }
   .nosotros__info {
-  margin: 40px;
-  margin-bottom: 4rem;
-  display: grid;
-  padding: 20px;
-  padding-top: 0%;
-  grid-template-columns: repeat(3, 40%);
-  grid-template-rows: 50% 20% 60%;
-  justify-content: space-evenly;
-  grid-template-areas:
-  "viñedos argentia tradicion"
-  "viñedos__t argentia__t tradicion__t"
-  "viñedos__txt argentia__txt tradicion__txt";
-}
-.nuestros__viñedos__mq1 {
-  display: flex;
-  width: 90%;
-  height: 80%;
-  grid-area: viñedos;
-  justify-self: center;
-}
-
-.nuestros__viñedos__titulo__mq1 {
-  display: flex;
-  grid-area: viñedos__t;
-  font-size: small;
-  font-weight: lighter;
-  text-align: start;
-  text-transform: uppercase;
-  align-self: center;
-  justify-self: center;
-}
-
-.nuestros__viñedos__texto__mq1 {
-  display: flex;
-  padding-left: 5%;
-  padding-right: 5%;
-  grid-area: viñedos__txt;
-  text-transform: lowercase;
-  font-size: small;
-  align-self: flex-start;
-  justify-self: center;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.argentia__nosotros__mq1 {
-  display: flex;
-  grid-area: argentia;
-  width: 90%;
-  height: 90%;
-  justify-self: center;
-}
-
-.argentia__nosotros__titulo__mq1 {
-  display: flex;
-  grid-area: argentia__t;
-  font-size: small;
-  font-weight: lighter;
-  text-align: start;
-  text-transform: uppercase;
-  align-self: center;
-  justify-self: center;
-}
-
-.argentia__nosotros__texto__mq1 {
-  display: flex;
-  padding-left: 5%;
-  padding-right: 5%;
-  grid-area: argentia__txt;
-  text-transform: lowercase;
-  font-size: small;
-  align-self: flex-start;
-  justify-self: center;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.tradi__tecno__mq1 {
-  display: flex;
-  grid-area: tradicion;
-  width: 90%;
-  height: 90%;
-  justify-self: center;
-}
-
-.tradi__tecno__titulo__mq1 {
-  display: flex;
-  grid-area: tradicion__t;
-  font-size: small;
-  font-weight: lighter;
-  text-align: start;
-  text-transform: uppercase;
-  align-self: center;
-  justify-self: center;
-}
-
-.tradi__tecno__texto__mq1 {
-  display: flex;
-  padding-left: 5%;
-  padding-right: 5%;
-  grid-area: tradicion__txt;
-  text-transform: lowercase;
-  font-size: small;
-  align-self: flex-start;
-  justify-self: center;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
-}
-.subtitulo1__producto {
-  margin-top: 26%;
-  margin-bottom: 5%;
-  text-align: center;
-  text-transform: capitalize;
-  font-size: larger;
-}
-.productos__grilla {
-  display: grid;
-  margin-bottom: 6%;
-  grid-template-columns: repeat(3, 30%);
-  grid-template-rows: 40% 5% 10% 40% 10% 10%;
-  grid-template-areas:
-      "blanco malbec rose"
-      "blanco__t malbec__t rose__t"
-      "argen1 argen2 argen3"
-      "dulce personalizado ."
-      "dulce__t personalizado__t ."
-      "argen4 argen5 .";
-  justify-items: center;
-  align-content: space-between;
-  justify-content: center;
-  align-items: start;
-}
-
+    margin: 40px;
+    margin-bottom: 4rem;
+    display: grid;
+    padding: 20px;
+    padding-top: 0%;
+    grid-template-columns: repeat(3, 40%);
+    grid-template-rows: 50% 20% 60%;
+    justify-content: space-evenly;
+    grid-template-areas: "viñedos argentia tradicion" "viñedos__t argentia__t tradicion__t" "viñedos__txt argentia__txt tradicion__txt";
+  }
+  .nuestros__viñedos__mq1 {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    grid-area: viñedos;
+    justify-self: center;
+  }
+  .nuestros__viñedos__titulo__mq1 {
+    display: flex;
+    grid-area: viñedos__t;
+    font-size: small;
+    font-weight: lighter;
+    text-align: start;
+    text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
+  }
+  .nuestros__viñedos__texto__mq1 {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-area: viñedos__txt;
+    text-transform: lowercase;
+    font-size: small;
+    align-self: flex-start;
+    justify-self: center;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .argentia__nosotros__mq1 {
+    display: flex;
+    grid-area: argentia;
+    width: 90%;
+    height: 90%;
+    justify-self: center;
+  }
+  .argentia__nosotros__titulo__mq1 {
+    display: flex;
+    grid-area: argentia__t;
+    font-size: small;
+    font-weight: lighter;
+    text-align: start;
+    text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
+  }
+  .argentia__nosotros__texto__mq1 {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-area: argentia__txt;
+    text-transform: lowercase;
+    font-size: small;
+    align-self: flex-start;
+    justify-self: center;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tradi__tecno__mq1 {
+    display: flex;
+    grid-area: tradicion;
+    width: 90%;
+    height: 90%;
+    justify-self: center;
+  }
+  .tradi__tecno__titulo__mq1 {
+    display: flex;
+    grid-area: tradicion__t;
+    font-size: small;
+    font-weight: lighter;
+    text-align: start;
+    text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
+  }
+  .tradi__tecno__texto__mq1 {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-area: tradicion__txt;
+    text-transform: lowercase;
+    font-size: small;
+    align-self: flex-start;
+    justify-self: center;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .subtitulo1__producto {
+    margin-top: 26%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+  }
+  .productos__grilla {
+    display: grid;
+    margin-bottom: 6%;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 40% 5% 10% 40% 10% 10%;
+    grid-template-areas: "blanco malbec rose" "blanco__t malbec__t rose__t" "argen1 argen2 argen3" "dulce personalizado ." "dulce__t personalizado__t ." "argen4 argen5 .";
+    justify-items: center;
+    align-content: space-between;
+    justify-content: center;
+    align-items: start;
+  }
 }
 
 /* vista mobile */
 /*# sourceMappingURL=estilo.css.map */
-
 @media screen and (max-width: 767px) {
-  .section2{
+  .section2 {
     width: 80%;
     margin: 0 auto;
   }
-
   body {
     font-family: 'Merriweather', sans-serif;
     background-color: white;
     color: black;
   }
-
   .header {
     position: fixed;
     background-color: white;
@@ -1345,7 +1272,7 @@ body {
   .header__logo {
     width: 65%;
   }
-  .header__texto{
+  .header__texto {
     display: none;
   }
   .header__redes {
@@ -1354,7 +1281,6 @@ body {
   .nav {
     display: none;
   }
-
   #lateral {
     display: flex;
     column-gap: 30px;
@@ -1372,7 +1298,6 @@ body {
     flex-direction: column;
     transition: top 1s;
   }
-
   #lateral:target {
     top: 7rem;
   }
@@ -1382,7 +1307,6 @@ body {
     color: black;
     text-decoration: none;
   }
-
   .banner {
     background-color: white;
     color: white;
@@ -1400,30 +1324,17 @@ body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 20% 5% auto 25% 5% auto 25% 5% auto 25% 5% auto;
-    grid-template-areas:
-        "curso . . ."
-        "curso__ti . . ."
-        "curso__txt . . ."
-        "face . . ."
-        "face__ti . . ."
-        "face__txt . . ."
-        "insta . . ."
-        "insta__ti . . ."
-        "insta__txt . . ."
-        "espu . . ."
-        "espu__ti . . ."
-        "espu__txt . . .";
+    grid-template-areas: "curso . . ." "curso__ti . . ." "curso__txt . . ." "face . . ." "face__ti . . ." "face__txt . . ." "insta . . ." "insta__ti . . ." "insta__txt . . ." "espu . . ." "espu__ti . . ." "espu__txt . . .";
     align-items: center;
     justify-items: center;
     justify-content: center;
     align-content: space-between;
-}
+  }
   .cursos__imagen11 {
     display: flex;
     justify-content: center;
     grid-area: curso;
     width: 45%;
-;
   }
   .cursos__titulo1 {
     grid-area: curso__ti;
@@ -1438,7 +1349,6 @@ body {
     grid-area: face;
     align-content: center;
     width: 45%;
-
   }
   .portada__facebook__titulo1 {
     grid-area: face__ti;
@@ -1452,8 +1362,7 @@ body {
     grid-area: insta;
     display: flex;
     justify-content: center;
-    width: 100%;;
-
+    width: 100%;
   }
   .portada__insta__titulo1 {
     grid-area: insta__ti;
@@ -1483,18 +1392,10 @@ body {
     margin-bottom: 55%;
     grid-template-columns: auto;
     grid-template-rows: 50% 8% 8% 8% 50% 8% 10%;
-    grid-template-areas: 
-    "evento__img"
-    "evento__ti"
-    "evento__tx"
-    "evento__mas"
-    "tradi__img"
-    "tradi__ti"
-    "tradi__tx";
+    grid-template-areas: "evento__img" "evento__ti" "evento__tx" "evento__mas" "tradi__img" "tradi__ti" "tradi__tx";
     justify-items: center;
     align-items: center;
     justify-content: center;
-
   }
   .eventos__mq2 {
     display: flex;
@@ -1542,22 +1443,7 @@ body {
     margin-bottom: 120%;
     grid-template-columns: 80%;
     grid-template-rows: 18% 5% 7% 18% 5% 6% 18% 5% 7% 18% 5% 7% 18% 5% 7%;
-    grid-template-areas:
-        "blanco__img"
-        "blanco__ti"
-        "argen1"
-        "malbec__img"
-        "malbec__ti"
-        "argen2"
-        "rose__img"
-        "rose__ti"
-        "argen3"
-        "dulce__img"
-        "dulce__ti"
-        "argen4"
-        "personalizado__img"
-        "personalizado__ti"
-        "argen5";
+    grid-template-areas: "blanco__img" "blanco__ti" "argen1" "malbec__img" "malbec__ti" "argen2" "rose__img" "rose__ti" "argen3" "dulce__img" "dulce__ti" "argen4" "personalizado__img" "personalizado__ti" "argen5";
     align-items: center;
     justify-items: center;
     justify-content: center;
@@ -1568,7 +1454,6 @@ body {
     justify-content: center;
     grid-area: blanco__img;
     width: 75%;
-;
   }
   .vinoblanco__titulo__mq2 {
     grid-area: blanco__ti;
@@ -1583,7 +1468,6 @@ body {
     grid-area: malbec__img;
     align-content: center;
     width: 75%;
-
   }
   .vinomalbec__titulo__mq2 {
     grid-area: malbec__ti;
@@ -1597,8 +1481,7 @@ body {
     grid-area: rose__img;
     display: flex;
     justify-content: center;
-    width: 80%;;
-
+    width: 80%;
   }
   .vinorose__titulo__mq2 {
     grid-area: rose__ti;
@@ -1643,29 +1526,19 @@ body {
     margin-top: 38rem;
     padding-bottom: 4rem;
     border-bottom: 1px solid #AD9263;
-}
-
+  }
   .nosotros__info {
-  margin-bottom: 80%;
-  display: grid;
-  padding: 20px;
-  grid-template-columns: 100%;
-  grid-template-rows: 20% 1% 25% 20% 5% 20% 20% 5% 18%;
-  justify-content: center;
-  grid-template-areas:
-  "viñedos ."
-  "viñedos__t ."
-  "viñedos__txt ."
-  "argentia ."
-  "argentia__t ."
-  "argentia__txt ."
-  "tradicion ."
-  "tradicion__t ."
-  "tradicion__txt .";
+    margin-bottom: 80%;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 1% 25% 20% 5% 20% 20% 5% 18%;
+    justify-content: center;
+    grid-template-areas: "viñedos ." "viñedos__t ." "viñedos__txt ." "argentia ." "argentia__t ." "argentia__txt ." "tradicion ." "tradicion__t ." "tradicion__txt .";
     justify-items: center;
     align-items: center;
     align-content: space-between;
-}
+  }
   .nuestros__viñedos__mq2 {
     display: flex;
     width: 300px;
@@ -1673,7 +1546,6 @@ body {
     grid-area: viñedos;
     justify-self: center;
   }
-  
   .nuestros__viñedos__titulo__mq2 {
     display: flex;
     grid-area: viñedos__t;
@@ -1684,7 +1556,6 @@ body {
     align-self: center;
     justify-self: center;
   }
-  
   .nuestros__viñedos__texto__mq2 {
     display: flex;
     grid-area: viñedos__txt;
@@ -1696,7 +1567,6 @@ body {
     justify-content: space-around;
     align-items: center;
   }
-  
   .argentia__nosotros__mq2 {
     display: flex;
     grid-area: argentia;
@@ -1704,7 +1574,6 @@ body {
     height: 50%;
     justify-self: center;
   }
-  
   .argentia__nosotros__titulo__mq2 {
     display: flex;
     grid-area: argentia__t;
@@ -1715,7 +1584,6 @@ body {
     align-self: center;
     justify-self: center;
   }
-  
   .argentia__nosotros__texto__mq2 {
     display: flex;
     grid-area: argentia__txt;
@@ -1727,15 +1595,13 @@ body {
     justify-content: space-around;
     align-items: center;
   }
-  
   .tradi__tecno__mq2 {
     display: flex;
     grid-area: tradicion;
     width: 300px;
-    height: 50%;;
+    height: 50%;
     justify-self: center;
   }
-  
   .tradi__tecno__titulo__mq2 {
     display: flex;
     grid-area: tradicion__t;
@@ -1746,7 +1612,6 @@ body {
     align-self: center;
     justify-self: center;
   }
-  
   .tradi__tecno__texto__mq2 {
     display: flex;
     grid-area: tradicion__txt;
@@ -1768,25 +1633,10 @@ body {
   .productos__grilla {
     display: grid;
     margin-bottom: 50%;
-    grid-template-columns:auto;
+    grid-template-columns: auto;
     padding: 10px;
     grid-template-rows: 18% 2% 4% 18% 2% 4% 18% 2% 4% 18% 2% 4% 18% 2% 4%;
-    grid-template-areas:
-        "blanco"
-        "blanco__t"
-        "argen1"
-        "malbec"
-        "malbec__t"
-        "argen2"
-        "rose"
-        "rose__t"
-        "argen3"
-        "dulce"
-        "dulce__t"
-        "argen4"
-        "personalizado"
-        "personalizado__t"
-        "argen5";
+    grid-template-areas: "blanco" "blanco__t" "argen1" "malbec" "malbec__t" "argen2" "rose" "rose__t" "argen3" "dulce" "dulce__t" "argen4" "personalizado" "personalizado__t" "argen5";
     justify-items: center;
     align-content: space-between;
     justify-content: center;
@@ -1801,3 +1651,4 @@ body {
     width: 60%;
   }
 }
+/*# sourceMappingURL=estilo.css.map */

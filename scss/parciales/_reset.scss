@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Merriweather', sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  .seccion {
+    width: 80%;
+    margin: 0 auto;
+
+    &__titulo {
+      text-align: center;
+      padding: 2rem 0;
+    }
+  }
+  
+  .seccion__titulo {
+    text-align: center;
+    padding: 2rem 0;
+  }

@@ -1,0 +1,210 @@
+.header {
+    /* position: fixed;
+      background-color: white;
+      padding: 0.5rem;
+      padding-top: 2rem;
+      display: grid;
+      grid-template-columns: 25% 50% 25%;
+      grid-template-rows: 50% 50%;
+      grid-template-areas: 
+      "header__txt header__logo header__redes"
+      "nav nav nav";
+      justify-content: space-between;
+      align-items: center;
+      justify-items: center;
+      width: 100%;
+      height: 26%;
+      z-index: 13; */
+    position: fixed;
+    background-color: white;
+    padding: 0.5rem;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 50% 40%;
+    grid-template-areas: "header__txt header__logo header__redes"
+   "nav nav nav";
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 26%;
+    z-index: 13;
+    align-content: space-between;
+  }
+  
+  .header__bar {
+    display: none;
+  }
+  
+  .header__logo {
+    display: flex;
+    grid-area: header__logo;
+    width: 55%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    align-content: center;
+    justify-self: center;
+    background-color: white;
+  }
+  
+  .header__texto {
+    display: flex;
+    grid-area: header__txt;
+    color: #9D9D9D;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: smaller;
+  }
+  
+  .nav {
+    display: flex;
+    grid-area: nav;
+    justify-content: center;
+    align-self: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: small;
+  }
+  
+  .enlace1 {
+    display: inline;
+    padding-right: 1rem;
+    color: $color-principal-dorado;
+    text-decoration: none;
+
+    &__negro {
+      display: inline;
+      padding-right: 1rem;
+      color: black;
+      text-decoration: none;
+    }
+    
+  }
+
+  .enlace2 {
+    display: inline;
+    padding-right: 1rem;
+    color: $color-principal-dorado;
+    text-decoration: none;
+
+    &__negro {
+      display: inline;
+      padding-right: 1rem;
+      color: black;
+      text-decoration: none;
+    }
+  }
+  
+  .enlace3 {
+    display: inline;
+    padding-right: 1rem;
+    color: $color-principal-dorado;
+    text-decoration: none;
+
+    &__negro {
+      display: inline;
+      padding-right: 1rem;
+      color: black;
+      text-decoration: none;
+    }
+  }
+  
+  .enlace4 {
+    display: inline;
+    padding-right: 1rem;
+    color: $color-principal-dorado;
+    text-decoration: none;
+
+    &__negro {
+      display: inline;
+      padding-right: 1rem;
+      color: black;
+      text-decoration: none;
+    }
+  }
+  
+  .enlace5 {
+    display: inline;
+    padding-right: 1rem;
+    color: $color-principal-dorado;
+    text-decoration: none;
+
+    &__negro {
+      display: inline;
+      padding-right: 1rem;
+      color: black;
+      text-decoration: none;
+    }
+  }
+  
+  .enlace6 {
+    display: inline;
+    padding-right: 1rem;
+    color: $color-principal-dorado;
+    text-decoration: none;
+
+    &__negro {
+      display: inline;
+      padding-right: 1rem;
+      color: black;
+      text-decoration: none;
+    }
+  }
+  
+  .enlace7 {
+    display: none;
+  }
+  
+  .header__redes {
+    display: flex;
+    padding: 10px;
+    grid-area: header__redes;
+    width: 200px;
+    text-transform: lowercase;
+    font-size: small;
+    align-self: center;
+    justify-content: space-around;
+  }
+  
+  .redes__facebook {
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    padding-top: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: $color-principal-dorado;
+    text-align: start;
+    font-size:25px;
+    text-decoration: none
+  }
+  
+  .redes__instagram {
+    background-color: #F7F7F7;
+    color: $color-principal-dorado;
+    border-radius: 50%;
+    padding-top: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+    font-size:25px;
+    text-decoration: none;
+
+    
+  }
+  
+  .redes__whatsapp {
+    background-color: #F7F7F7;
+    color: $color-principal-dorado;
+    border-radius: 50%;
+    padding-top: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: end;
+    font-size:25px;
+    text-decoration: none;
+  }
