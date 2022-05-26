@@ -98,91 +98,91 @@ body {
   font-size: small;
 }
 
-.enlace1 {
+.nav__enlace1 {
   display: inline;
   padding-right: 1rem;
   color: #AD9263;
   text-decoration: none;
 }
 
-.enlace1__negro {
+.nav__enlace1__negro {
   display: inline;
   padding-right: 1rem;
   color: black;
   text-decoration: none;
 }
 
-.enlace2 {
+.nav__enlace2 {
   display: inline;
   padding-right: 1rem;
   color: #AD9263;
   text-decoration: none;
 }
 
-.enlace2__negro {
+.nav__enlace2__negro {
   display: inline;
   padding-right: 1rem;
   color: black;
   text-decoration: none;
 }
 
-.enlace3 {
+.nav__enlace3 {
   display: inline;
   padding-right: 1rem;
   color: #AD9263;
   text-decoration: none;
 }
 
-.enlace3__negro {
+.nav__enlace3__negro {
   display: inline;
   padding-right: 1rem;
   color: black;
   text-decoration: none;
 }
 
-.enlace4 {
+.nav__enlace4 {
   display: inline;
   padding-right: 1rem;
   color: #AD9263;
   text-decoration: none;
 }
 
-.enlace4__negro {
+.nav__enlace4__negro {
   display: inline;
   padding-right: 1rem;
   color: black;
   text-decoration: none;
 }
 
-.enlace5 {
+.nav__enlace5 {
   display: inline;
   padding-right: 1rem;
   color: #AD9263;
   text-decoration: none;
 }
 
-.enlace5__negro {
+.nav__enlace5__negro {
   display: inline;
   padding-right: 1rem;
   color: black;
   text-decoration: none;
 }
 
-.enlace6 {
+.nav__enlace6 {
   display: inline;
   padding-right: 1rem;
   color: #AD9263;
   text-decoration: none;
 }
 
-.enlace6__negro {
+.nav__enlace6__negro {
   display: inline;
   padding-right: 1rem;
   color: black;
   text-decoration: none;
 }
 
-.enlace7 {
+.nav__enlace7 {
   display: none;
 }
 
@@ -195,42 +195,6 @@ body {
   font-size: small;
   align-self: center;
   justify-content: space-around;
-}
-
-.redes__facebook {
-  background-color: #F7F7F7;
-  border-radius: 50%;
-  padding-top: 1px;
-  padding-left: 7px;
-  padding-right: 7px;
-  color: #AD9263;
-  text-align: start;
-  font-size: 25px;
-  text-decoration: none;
-}
-
-.redes__instagram {
-  background-color: #F7F7F7;
-  color: #AD9263;
-  border-radius: 50%;
-  padding-top: 1px;
-  padding-left: 7px;
-  padding-right: 7px;
-  text-align: center;
-  font-size: 25px;
-  text-decoration: none;
-}
-
-.redes__whatsapp {
-  background-color: #F7F7F7;
-  color: #AD9263;
-  border-radius: 50%;
-  padding-top: 1px;
-  padding-left: 7px;
-  padding-right: 7px;
-  text-align: end;
-  font-size: 25px;
-  text-decoration: none;
 }
 
 .whatsapp {
@@ -276,20 +240,6 @@ body {
   width: 100%;
   position: relative;
   justify-content: center;
-}
-
-.br {
-  padding-bottom: 10%;
-}
-
-.br2 {
-  padding-bottom: 10%;
-  margin-bottom: 10%;
-}
-
-.br3 {
-  border: 10px solid #AD9263;
-  padding: 10px;
 }
 
 .subtitulo1 {
@@ -425,35 +375,6 @@ body {
   padding: 5%;
 }
 
-.eventos__titulo {
-  display: flex;
-  grid-area: evento__t;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: medium;
-  justify-content: center;
-}
-
-.eventos__texto {
-  color: #A6A79D;
-  display: flex;
-  grid-area: evento__txt;
-  text-align: justify;
-  text-transform: inherit;
-  font-size: smaller;
-  justify-content: center;
-  align-self: flex-start;
-}
-
-.eventos__masinfo {
-  display: flex;
-  grid-area: evento__txt;
-  text-align: justify;
-  text-transform: inherit;
-  font-size: smaller;
-  justify-content: center;
-}
-
 .tradicion {
   display: flex;
   grid-area: tradi;
@@ -513,51 +434,6 @@ body {
   text-align: start;
   text-transform: capitalize;
   justify-content: center;
-}
-
-.argentia1 {
-  color: #898B89;
-  display: flex;
-  grid-area: argentia1;
-  font-size: small;
-  justify-content: center;
-  align-self: baseline;
-}
-
-.argentia2 {
-  color: #898B89;
-  display: flex;
-  grid-area: argentia2;
-  font-size: small;
-  justify-content: center;
-  align-self: baseline;
-}
-
-.argentia3 {
-  color: #898B89;
-  display: flex;
-  grid-area: argentia3;
-  font-size: small;
-  justify-content: center;
-  align-self: baseline;
-}
-
-.argentia4 {
-  color: #898B89;
-  display: flex;
-  grid-area: argentia4;
-  font-size: small;
-  justify-content: center;
-  align-self: baseline;
-}
-
-.argentia5 {
-  color: #898B89;
-  display: flex;
-  grid-area: argentia5;
-  font-size: small;
-  justify-content: flex-start;
-  align-self: baseline;
 }
 
 .vinomalbec {
@@ -627,6 +503,113 @@ body {
   margin-top: 4rem;
 }
 
+.eventos__titulo {
+  display: flex;
+  flex-direction: auto;
+  justify-content: center;
+  align-items: auto;
+  align-self: auto;
+  grid-area: evento__t;
+  font-size: medium;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.eventos__texto {
+  color: #A6A79D;
+  display: flex;
+  flex-direction: auto;
+  justify-content: center;
+  align-items: auto;
+  align-self: flex-start;
+  grid-area: evento__txt;
+  font-size: smaller;
+  text-transform: inherit;
+  text-align: justify;
+}
+
+.eventos__masinfo {
+  display: flex;
+  flex-direction: auto;
+  justify-content: center;
+  align-items: auto;
+  align-self: flex-start;
+  grid-area: evento__mi;
+  font-size: smaller;
+  text-transform: inherit;
+  text-align: justify;
+}
+
+.redes__facebook {
+  color: #AD9263;
+  border: 50%;
+  padding-top: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.redes__instagram {
+  color: #AD9263;
+  border: 50%;
+  padding-top: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.redes__whatsapp {
+  color: #AD9263;
+  border: 50%;
+  padding-top: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.argentia1 {
+  color: #898B89;
+  display: flex;
+  font-size: small;
+  justify-content: center;
+  align-self: baseline;
+}
+
+.argentia2 {
+  color: #898B89;
+  display: flex;
+  font-size: small;
+  justify-content: center;
+  align-self: baseline;
+}
+
+.argentia3 {
+  color: #898B89;
+  display: flex;
+  font-size: small;
+  justify-content: center;
+  align-self: baseline;
+}
+
+.argentia4 {
+  color: #898B89;
+  display: flex;
+  font-size: small;
+  justify-content: center;
+  align-self: baseline;
+}
+
+.argentia5 {
+  color: #898B89;
+  display: flex;
+  font-size: small;
+  justify-content: center;
+  align-self: baseline;
+}
+
 .footer {
   background-color: white;
   padding: 10px;
@@ -655,25 +638,25 @@ body {
   align-self: center;
 }
 
-.nav__footer {
+.footer__nav {
   text-transform: lowercase;
   font-size: small;
   align-self: center;
 }
 
-.enlace1__footer {
+.footer__enlace1 {
   text-decoration: none;
   color: #9D9D9D;
   padding-right: 0.5rem;
 }
 
-.enlace2__footer {
+.footer__enlace2 {
   color: #9D9D9D;
   text-decoration: none;
   padding-right: 0.5rem;
 }
 
-.enlace3__footer {
+.footer__enlace3 {
   color: #9D9D9D;
   text-decoration: none;
   padding-right: 0.5rem;
@@ -933,7 +916,13 @@ body {
   font-size: small;
 }
 
-.texto1__resto {
+.resto {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.resto__texto1 {
   color: #898B89;
   text-align: center;
   text-transform: lowercase;
@@ -941,7 +930,7 @@ body {
   font-weight: normal;
 }
 
-.texto2__resto {
+.resto__texto2 {
   color: #818181;
   text-align: center;
   text-transform: lowercase;
@@ -949,37 +938,219 @@ body {
   font-weight: bold;
 }
 
-.boton__reserva {
+.resto__reserva {
   display: inline-block;
   background-color: #AD9263;
   color: white;
-  margin-left: 45.6%;
-  padding-top: .8%;
+  margin-left: 45%;
+  margin-right: 45%;
+  padding-top: 1%;
   padding-right: 2%;
-  padding-bottom: .8%;
   padding-left: 2%;
   top: 20%;
   text-align: center;
   text-transform: capitalize;
   text-decoration: none;
-  font-size: small;
-  border-radius: .1rem;
+  font-size: medium;
+  border-radius: .2rem;
+}
+
+.resto__imagenes {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
 
 .resto__imagen1 {
   display: inline-block;
-  margin-left: 4.5%;
-  margin-top: 5%;
+  width: 30%;
 }
 
 .resto__imagen2 {
-  display: inline;
-  margin-left: 5%;
+  display: inline-block;
+  width: 30%;
 }
 
 .resto__imagen3 {
   display: inline-block;
-  margin-left: 5%;
+  width: 30%;
+}
+
+.eventos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eventos__titulo2 {
+  margin-top: 20%;
+  margin-bottom: 8%;
+  padding-bottom: 35px;
+  border-bottom: 2px solid #AD9263;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: x-large;
+  font-weight: normal;
+}
+
+.eventos__texto2 {
+  color: #898B89;
+  align-self: center;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: small;
+  font-weight: normal;
+}
+
+.eventos__imagenes {
+  width: 100%;
+}
+
+.mapa {
+  width: 100%;
+  height: 600px;
+  padding-top: 20%;
+  padding-bottom: 3rem;
+}
+
+.subtitulo__contacto {
+  margin-top: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: larger;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #AD9263;
+}
+
+.contenido__contacto {
+  display: grid;
+  padding: 3px;
+  grid-template-columns: 25% 20% 55%;
+  grid-template-rows: 55%;
+  grid-template-areas: "info . form";
+  align-items: center;
+}
+
+.contacto__info {
+  display: flex;
+  grid-area: info;
+  margin-top: 40%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacto__info .contacto__titulo {
+  text-transform: uppercase;
+  font-size: x-large;
+  padding-bottom: 40px;
+  margin-top: 10rem;
+  text-align: start;
+}
+
+.contacto__info .contacto__texto {
+  color: gray;
+  text-align: start;
+  font-size: smaller;
+  text-transform: capitalize;
+}
+
+.contacto__info .contacto__redes {
+  align-self: flex-start;
+}
+
+.redes__contacto {
+  font-size: medium;
+  align-self: flex-start;
+}
+
+.form {
+  width: 100%;
+  display: grid;
+  grid-area: form;
+  grid-template-columns: 48% 4% 48%;
+  grid-template-rows: 10% 10% 40% 10% 40% 30% 140% 15% 30%;
+  grid-template-areas: "texto . ."  ". . ." "nombre . apellido" ". . ." "mail . numero" ". . ." "mensaje mensaje mensaje" ". . ." ". . boton";
+  align-content: space-between;
+  justify-content: end;
+  align-items: stretch;
+  justify-items: stretch;
+}
+
+.form__texto {
+  display: flex;
+  grid-area: texto;
+}
+
+.form__nombre {
+  display: flex;
+  grid-area: nombre;
+  text-transform: capitalize;
+  font-size: x-small;
+  background-color: #F8F8F8;
+  padding-left: 10px;
+  border-style: none;
+  border: 1px solid #EEEEEE;
+}
+
+.form__apellido {
+  display: flex;
+  grid-area: apellido;
+  text-transform: capitalize;
+  font-size: x-small;
+  background-color: #F8F8F8;
+  padding-left: 10px;
+  border-style: none;
+  border: 1px solid #EEEEEE;
+}
+
+.form__mail {
+  display: flex;
+  grid-area: mail;
+  text-transform: capitalize;
+  font-size: x-small;
+  background-color: #F8F8F8;
+  padding-left: 10px;
+  border-style: none;
+  border: 1px solid #EEEEEE;
+}
+
+.form__numero {
+  display: flex;
+  grid-area: numero;
+  text-transform: capitalize;
+  font-size: x-small;
+  background-color: #F8F8F8;
+  padding-left: 10px;
+  border-style: none;
+  border: 1px solid #EEEEEE;
+}
+
+.form__mensaje {
+  display: flex;
+  grid-area: mensaje;
+  text-transform: capitalize;
+  font-size: x-small;
+  background-color: #F8F8F8;
+  padding-left: 10px;
+  border-style: none;
+  border: 1px solid #EEEEEE;
+}
+
+.form__boton {
+  display: inline-block;
+  grid-area: boton;
+  background-color: #AD9263;
+  color: black;
+  margin-left: 50%;
+  padding-top: .8%;
+  padding-right: 2%;
+  padding-bottom: .8%;
+  padding-left: 2%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: medium;
+  border-style: none;
+  border-radius: 5rem;
 }
 
 /* media querys */
@@ -1231,6 +1402,182 @@ body {
     align-content: space-between;
     justify-content: center;
     align-items: start;
+  }
+  .mapa {
+    width: 100%;
+    height: 700px;
+    padding-top: 20%;
+    padding-bottom: 3rem;
+  }
+  .contenido__contacto {
+    display: grid;
+    padding: 3px;
+    grid-template-columns: 25% 20% 55%;
+    grid-template-rows: 100%;
+    grid-template-areas: "info . form";
+    align-items: center;
+  }
+  .contacto__info {
+    display: flex;
+    grid-area: info;
+    margin-bottom: 15%;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .contacto__info__titulo {
+    text-transform: uppercase;
+    font-size: small;
+    padding-bottom: 40px;
+    margin-top: 10rem;
+    text-align: start;
+  }
+  .contacto__info__texto {
+    color: gray;
+    text-align: start;
+    font-size: x-small;
+    text-transform: capitalize;
+  }
+  .contacto__info__redes {
+    align-self: center;
+  }
+  .redes__contacto {
+    font-size: small;
+    align-self: flex-end;
+  }
+  .form {
+    width: 100%;
+    display: grid;
+    grid-area: form;
+    margin-bottom: 30%;
+    grid-template-columns: 48% 4% 48%;
+    grid-template-rows: 10% 10% 40% 10% 40% 30% 140% 15% 30%;
+    grid-template-areas: "texto . ."  ". . ." "nombre . apellido" ". . ." "mail . numero" ". . ." "mensaje mensaje mensaje" ". . ." ". . boton";
+    align-content: space-between;
+    justify-content: end;
+    align-items: stretch;
+    justify-items: stretch;
+  }
+  .form__texto {
+    display: flex;
+    grid-area: texto;
+  }
+  .form__nombre {
+    display: flex;
+    grid-area: nombre;
+    text-transform: capitalize;
+    font-size: x-small;
+    background-color: #F8F8F8;
+    padding-left: 10px;
+    border-style: none;
+    border: 1px solid #EEEEEE;
+  }
+  .form__apellido {
+    display: flex;
+    grid-area: apellido;
+    text-transform: capitalize;
+    font-size: x-small;
+    background-color: #F8F8F8;
+    padding-left: 10px;
+    border-style: none;
+    border: 1px solid #EEEEEE;
+  }
+  .form__mail {
+    display: flex;
+    grid-area: mail;
+    text-transform: capitalize;
+    font-size: x-small;
+    background-color: #F8F8F8;
+    padding-left: 10px;
+    border-style: none;
+    border: 1px solid #EEEEEE;
+  }
+  .form__numero {
+    display: flex;
+    grid-area: numero;
+    text-transform: capitalize;
+    font-size: x-small;
+    background-color: #F8F8F8;
+    padding-left: 10px;
+    border-style: none;
+    border: 1px solid #EEEEEE;
+  }
+  .form__mensaje {
+    display: flex;
+    grid-area: mensaje;
+    text-transform: capitalize;
+    font-size: x-small;
+    background-color: #F8F8F8;
+    padding-left: 10px;
+    border-style: none;
+    border: 1px solid #EEEEEE;
+  }
+  .form__boton {
+    display: inline-block;
+    grid-area: boton;
+    background-color: #AD9263;
+    color: black;
+    margin-left: 33%;
+    padding-top: .8%;
+    padding-right: 2%;
+    padding-bottom: .8%;
+    padding-left: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    border-style: none;
+    border-radius: 5rem;
+  }
+  .resto {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+  .resto__texto1 {
+    color: #898B89;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: small;
+    font-weight: normal;
+  }
+  .resto__texto2 {
+    color: #818181;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: small;
+    font-weight: bold;
+  }
+  .resto__reserva {
+    display: inline-block;
+    background-color: #AD9263;
+    color: white;
+    margin-left: 45%;
+    margin-right: 38%;
+    padding-top: 1.5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    top: 20%;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: medium;
+    border-radius: .2rem;
+  }
+  .resto__imagenes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .resto__imagen1 {
+    display: inline-block;
+    width: 30%;
+  }
+  .resto__imagen2 {
+    display: inline-block;
+    width: 30%;
+  }
+  .resto__imagen3 {
+    display: inline-block;
+    width: 30%;
   }
 }
 
@@ -1641,6 +1988,182 @@ body {
     align-content: space-between;
     justify-content: center;
     align-items: start;
+  }
+  .mapa {
+    width: 100%;
+    height: 600px;
+    padding-top: 50%;
+    padding-bottom: 3rem;
+  }
+  .contenido__contacto {
+    display: grid;
+    padding: 3px;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "info" "form";
+    align-items: center;
+  }
+  .contacto__info {
+    display: flex;
+    grid-area: info;
+    margin-bottom: 15%;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .contacto__info__titulo {
+    text-transform: uppercase;
+    font-size: small;
+    padding-bottom: 40px;
+    margin-top: 10rem;
+    text-align: start;
+  }
+  .contacto__info__texto {
+    color: gray;
+    text-align: start;
+    font-size: x-small;
+    text-transform: capitalize;
+  }
+  .contacto__info__redes {
+    align-self: center;
+  }
+  .redes__contacto {
+    font-size: small;
+    align-self: flex-end;
+  }
+  .form {
+    width: 100%;
+    display: grid;
+    grid-area: form;
+    margin-bottom: 30%;
+    grid-template-columns: 48% 4% 48%;
+    grid-template-rows: 10% 10% 40% 10% 40% 30% 140% 15% 30%;
+    grid-template-areas: "texto . ."  ". . ." "nombre . apellido" ". . ." "mail . numero" ". . ." "mensaje mensaje mensaje" ". . ." ". . boton";
+    align-content: space-between;
+    justify-content: end;
+    align-items: stretch;
+    justify-items: stretch;
+  }
+  .form__texto {
+    display: flex;
+    grid-area: texto;
+  }
+  .form__nombre {
+    display: flex;
+    grid-area: nombre;
+    text-transform: capitalize;
+    font-size: x-small;
+    background-color: #F8F8F8;
+    padding-left: 10px;
+    border-style: none;
+    border: 1px solid #EEEEEE;
+  }
+  .form__apellido {
+    display: flex;
+    grid-area: apellido;
+    text-transform: capitalize;
+    font-size: x-small;
+    background-color: #F8F8F8;
+    padding-left: 10px;
+    border-style: none;
+    border: 1px solid #EEEEEE;
+  }
+  .form__mail {
+    display: flex;
+    grid-area: mail;
+    text-transform: capitalize;
+    font-size: x-small;
+    background-color: #F8F8F8;
+    padding-left: 10px;
+    border-style: none;
+    border: 1px solid #EEEEEE;
+  }
+  .form__numero {
+    display: flex;
+    grid-area: numero;
+    text-transform: capitalize;
+    font-size: x-small;
+    background-color: #F8F8F8;
+    padding-left: 10px;
+    border-style: none;
+    border: 1px solid #EEEEEE;
+  }
+  .form__mensaje {
+    display: flex;
+    grid-area: mensaje;
+    text-transform: capitalize;
+    font-size: x-small;
+    background-color: #F8F8F8;
+    padding-left: 10px;
+    border-style: none;
+    border: 1px solid #EEEEEE;
+  }
+  .form__boton {
+    display: inline-block;
+    grid-area: boton;
+    background-color: #AD9263;
+    color: black;
+    margin-left: 33%;
+    padding-top: .8%;
+    padding-right: 2%;
+    padding-bottom: .8%;
+    padding-left: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    border-style: none;
+    border-radius: 5rem;
+  }
+  .resto {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+  .resto__texto1 {
+    color: #898B89;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: small;
+    font-weight: normal;
+  }
+  .resto__texto2 {
+    color: #818181;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: small;
+    font-weight: bold;
+  }
+  .resto__reserva {
+    display: inline-block;
+    background-color: #AD9263;
+    color: white;
+    margin-left: 40%;
+    margin-right: 32%;
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    top: 20%;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: small;
+    border-radius: .2rem;
+  }
+  .resto__imagenes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .resto__imagen1 {
+    display: inline-block;
+    width: 30%;
+  }
+  .resto__imagen2 {
+    display: inline-block;
+    width: 30%;
+  }
+  .resto__imagen3 {
+    display: inline-block;
+    width: 30%;
   }
   .footer {
     flex-direction: column;

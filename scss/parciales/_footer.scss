@@ -25,28 +25,27 @@
       align-self: center;
     }
     
-  }
-  
-  .nav__footer {
-    text-transform: lowercase;
-    font-size: small;
-    align-self: center;
-  }
-  
-  .enlace1__footer {
-    text-decoration: none;
-    color: #9D9D9D;
-    padding-right: 0.5rem;
-  }
-  
-  .enlace2__footer {
-    color: #9D9D9D;
-    text-decoration: none;
-    padding-right: 0.5rem;
-  }
-  
-  .enlace3__footer {
-    color: #9D9D9D;
-    text-decoration: none;
-    padding-right: 0.5rem;
+    &__nav {
+      text-transform: lowercase;
+      font-size: small;
+      align-self: center;
+    }
+    
+    &__enlace1 {
+      text-decoration: none;
+      color: #9D9D9D;
+      padding-right: 0.5rem;
+    }
+    
+    &__enlace2 {
+      color: #9D9D9D;
+      text-decoration: none;
+      padding-right: 0.5rem;
+    }
+    
+    &__enlace3 {
+      color: #9D9D9D;
+      text-decoration: none;
+      padding-right: 0.5rem;
+    }
   }

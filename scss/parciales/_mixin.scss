@@ -1,0 +1,35 @@
+@mixin font ($font-size, $text-transform, $text-aling) {
+    font-size: $font-size;
+    text-transform: $text-transform;
+    text-align: $text-aling;
+}
+
+@mixin flex ($display, $flex-direction, $justify-content, $aling-items, $aling-self) {
+    display: $display;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $aling-items;
+    align-self: $aling-self;
+}
+
+
+.eventos__titulo {
+    @include flex (flex, auto, center, auto, auto);
+    grid-area: evento__t;
+    @include font(medium, uppercase, center);
+}
+
+.eventos__texto {
+    color: #A6A79D;
+    @include flex(flex, auto, center, auto, flex-start);
+    grid-area: evento__txt;
+    @include font(smaller, inherit, justify);
+
+}
+
+.eventos__masinfo {
+    @include flex(flex, auto, center, auto , flex-start);
+    grid-area: evento__mi;
+    @include font(smaller, inherit, justify)
+}
+

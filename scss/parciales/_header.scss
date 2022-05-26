@@ -69,96 +69,97 @@
     text-transform: uppercase;
     text-decoration: none;
     font-size: small;
-  }
-  
-  .enlace1 {
-    display: inline;
-    padding-right: 1rem;
-    color: $color-principal-dorado;
-    text-decoration: none;
 
-    &__negro {
+    &__enlace1 {
       display: inline;
       padding-right: 1rem;
-      color: black;
+      color: $color-principal-dorado;
       text-decoration: none;
+  
+      &__negro {
+        display: inline;
+        padding-right: 1rem;
+        color: black;
+        text-decoration: none;
+      }
+      
+    }
+  
+    &__enlace2 {
+      display: inline;
+      padding-right: 1rem;
+      color: $color-principal-dorado;
+      text-decoration: none;
+  
+      &__negro {
+        display: inline;
+        padding-right: 1rem;
+        color: black;
+        text-decoration: none;
+      }
     }
     
-  }
-
-  .enlace2 {
-    display: inline;
-    padding-right: 1rem;
-    color: $color-principal-dorado;
-    text-decoration: none;
-
-    &__negro {
+    &__enlace3 {
       display: inline;
       padding-right: 1rem;
-      color: black;
+      color: $color-principal-dorado;
       text-decoration: none;
-    }
-  }
   
-  .enlace3 {
-    display: inline;
-    padding-right: 1rem;
-    color: $color-principal-dorado;
-    text-decoration: none;
-
-    &__negro {
+      &__negro {
+        display: inline;
+        padding-right: 1rem;
+        color: black;
+        text-decoration: none;
+      }
+    }
+    
+    &__enlace4 {
       display: inline;
       padding-right: 1rem;
-      color: black;
+      color: $color-principal-dorado;
       text-decoration: none;
-    }
-  }
   
-  .enlace4 {
-    display: inline;
-    padding-right: 1rem;
-    color: $color-principal-dorado;
-    text-decoration: none;
-
-    &__negro {
+      &__negro {
+        display: inline;
+        padding-right: 1rem;
+        color: black;
+        text-decoration: none;
+      }
+    }
+    
+    &__enlace5 {
       display: inline;
       padding-right: 1rem;
-      color: black;
+      color: $color-principal-dorado;
       text-decoration: none;
-    }
-  }
   
-  .enlace5 {
-    display: inline;
-    padding-right: 1rem;
-    color: $color-principal-dorado;
-    text-decoration: none;
-
-    &__negro {
+      &__negro {
+        display: inline;
+        padding-right: 1rem;
+        color: black;
+        text-decoration: none;
+      }
+    }
+    
+    &__enlace6 {
       display: inline;
       padding-right: 1rem;
-      color: black;
+      color: $color-principal-dorado;
       text-decoration: none;
+  
+      &__negro {
+        display: inline;
+        padding-right: 1rem;
+        color: black;
+        text-decoration: none;
+      }
+    }
+    
+    &__enlace7 {
+      display: none;
     }
   }
-  
-  .enlace6 {
-    display: inline;
-    padding-right: 1rem;
-    color: $color-principal-dorado;
-    text-decoration: none;
 
-    &__negro {
-      display: inline;
-      padding-right: 1rem;
-      color: black;
-      text-decoration: none;
-    }
-  }
-  
-  .enlace7 {
-    display: none;
-  }
   
   .header__redes {
     display: flex;
@@ -169,42 +170,6 @@
     font-size: small;
     align-self: center;
     justify-content: space-around;
-  }
-  
-  .redes__facebook {
-    background-color: #F7F7F7;
-    border-radius: 50%;
-    padding-top: 1px;
-    padding-left: 7px;
-    padding-right: 7px;
-    color: $color-principal-dorado;
-    text-align: start;
-    font-size:25px;
-    text-decoration: none
-  }
-  
-  .redes__instagram {
-    background-color: #F7F7F7;
-    color: $color-principal-dorado;
-    border-radius: 50%;
-    padding-top: 1px;
-    padding-left: 7px;
-    padding-right: 7px;
-    text-align: center;
-    font-size:25px;
-    text-decoration: none;
 
-    
   }
   
-  .redes__whatsapp {
-    background-color: #F7F7F7;
-    color: $color-principal-dorado;
-    border-radius: 50%;
-    padding-top: 1px;
-    padding-left: 7px;
-    padding-right: 7px;
-    text-align: end;
-    font-size:25px;
-    text-decoration: none;
-  }

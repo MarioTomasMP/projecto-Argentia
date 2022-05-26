@@ -1,0 +1,30 @@
+.eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__titulo2 {
+        margin-top: 20%;
+        margin-bottom: 8%;
+        padding-bottom: 35px;
+        border-bottom: 2px solid $color-principal-dorado;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: x-large;
+        font-weight: normal;
+    }
+
+    &__texto2 {
+        color: #898B89;
+        align-self: center;
+        text-align: center;
+        text-transform: lowercase;
+        font-size: small;
+        font-weight: normal;
+    }
+}
+
+.eventos__imagenes {
+    width: 100%; 
+    
+}

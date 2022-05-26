@@ -42,21 +42,7 @@
     position: relative;
     justify-content: center;
   }
-  
-  .br {
-    padding-bottom: 10%;
-  }
-  
-  .br2 {
-    padding-bottom: 10%;
-    margin-bottom: 10%;
-  }
-  
-  .br3 {
-    border: 10px solid $color-principal-dorado;
-    padding: 10px;
-  }
-  
+
   .subtitulo1 {
     text-align: center;
     text-transform: capitalize;
@@ -195,35 +181,6 @@
     padding: 5%;
   }
   
-  .eventos__titulo {
-    display: flex;
-    grid-area: evento__t;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: medium;
-    justify-content: center;
-  }
-  
-  .eventos__texto {
-    color: #A6A79D;
-    display: flex;
-    grid-area: evento__txt;
-    text-align: justify;
-    text-transform: inherit;
-    font-size: smaller;
-    justify-content: center;
-    align-self: flex-start;
-  }
-  
-  .eventos__masinfo {
-    display: flex;
-    grid-area: evento__txt;
-    text-align: justify;
-    text-transform: inherit;
-    font-size: smaller;
-    justify-content: center;
-  }
-  
   .tradicion {
     display: flex;
     grid-area: tradi;
@@ -287,51 +244,7 @@
     justify-content: center;
   }
   
-  .argentia1 {
-    color: $color-secundario-gris;
-    display: flex;
-    grid-area: argentia1;
-    font-size: small;
-    justify-content: center;
-    align-self: baseline;
-  }
-  
-  .argentia2 {
-    color:  $color-secundario-gris;
-    display: flex;
-    grid-area: argentia2;
-    font-size: small;
-    justify-content: center;
-    align-self: baseline;
-  }
-  
-  .argentia3 {
-    color:  $color-secundario-gris;
-    display: flex;
-    grid-area: argentia3;
-    font-size: small;
-    justify-content: center;
-    align-self: baseline;
-  }
-  
-  .argentia4 {
-    color:  $color-secundario-gris;
-    display: flex;
-    grid-area: argentia4;
-    font-size: small;
-    justify-content: center;
-    align-self: baseline;
-  }
-  
-  .argentia5 {
-    color:  $color-secundario-gris;
-    display: flex;
-    grid-area: argentia5;
-    font-size: small;
-    justify-content: flex-start;
-    align-self: baseline;
-  }
-  
+
   .vinomalbec {
     display: flex;
     grid-area: malbec;
