@@ -160,53 +160,7 @@
     justify-content: center;
     align-self: flex-start;
   }
-  
-  .info {
-    display: grid;
-    grid-template-columns: 30% 2% 30%;
-    grid-template-rows: 50% 25% 35% 10%;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: space-between;
-    justify-items: center;
-    grid-template-areas: "evento . tradi"
-   "evento__t . tradi__t"
-   "evento__txt . tradi__txt"
-   "evento__mi . .";
-  }
-  
-  .eventos {
-    display: flex;
-    grid-area: evento;
-    padding: 5%;
-  }
-  
-  .tradicion {
-    display: flex;
-    grid-area: tradi;
-    padding: 5%;
-  }
-  
-  .tradicion__titulo {
-    display: flex;
-    grid-area: tradi__t;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: medium;
-    justify-content: center;
-  }
-  
-  .tradicion__texto {
-    color: #A6A79D;
-    display: flex;
-    grid-area: tradi__txt;
-    text-align: justify;
-    text-transform: inherit;
-    font-size: smaller;
-    justify-content: center;
-    align-self: flex-start;
-  }
-  
+
   .subtitulo2 {
     text-align: center;
     text-transform: capitalize;

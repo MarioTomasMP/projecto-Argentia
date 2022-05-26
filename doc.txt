@@ -1,0 +1,25 @@
+Proyecto realizado: Bodega Argentia.
+Alumno: Martinez, Tomas.
+
+
+
+1) Coloque en el HEAD los metas.
+
+2) En la meta:”keyword” coloque las palabras clave que percibí más relevante para la estancia :
+*vino, vitivinícola, bodega, restaurante, bodegón, alcohol, espumante.
+
+3) En la meta:”description” coloque las descripciones correspondientes a cada página.
+	*index: "Bienvenidos a nuestra bodega, visita nuestros sitios web para saber más sobre nuestros cursos y más. Producimos el mejor vino desde Mendoza."
+	*nosotros: “Conoce más sobre nosotros, nuestra historia, nuestra bodega y nuestros vinos”
+	*producto: “Descubre todos nuestros productos, elaborados en nuestros viñedos. Para poder entregarte el mejor vino, de la mejor calidad”
+	*evento/turismo: “Ven a conocer nuestra bodega y nuestros viñedos, un viaje soñado en el cual conocerás cómo se elabora el vino más rico de Mendoza y el país.”
+	*resto: “Consulta y reserva un turno para venir a nuestros Resto, y así poder deleitarte de un muy rico menú, acompañados de nuestros vinos de calidad superior.”
+	contacto: “Contactanos por redes sociales, o escribenos para más información sobre nuestros productos. También conoce la ubicación de nuestra bodega.”
+
+4) Cree el archivo map.scss al cual le coloque un map y un each. Luego lo use en header_redes y en argentia, la cual se repetía entonces con esto fue más fácil darles a todas un mismo valor
+
+5) Borre algunas líneas del sass y del css que estaban de más.
+
+6) Acomode el responsive y termine la página de contactos, resto y empecé la de eventos y tradi..
+
+7) Cree el archivo mixin.scss, en el cual arme dos mixin, uno llamado font y otro flex, y lo use en una grilla en index
