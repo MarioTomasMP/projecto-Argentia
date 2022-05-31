@@ -35,25 +35,4 @@
     font-size: medium;
     border-radius: .2rem;
     }
-    
-  &__imagenes {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    } 
-
-  &__imagen1 {
-    display: inline-block;
-    width: 30%;
-    }
-      
-  &__imagen2 {
-    display: inline-block;
-    width: 30%;
-    }
-      
-  &__imagen3 {
-    display: inline-block;
-    width: 30%;
-    }
   }

@@ -32,12 +32,12 @@ body {
 }
 
 .seccion3 {
-  width: 50%;
+  width: 65%;
   margin: 0 auto;
 }
 
 .seccion4 {
-  width: 50%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -977,27 +977,6 @@ body {
   border-radius: .2rem;
 }
 
-.resto__imagenes {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-}
-
-.resto__imagen1 {
-  display: inline-block;
-  width: 30%;
-}
-
-.resto__imagen2 {
-  display: inline-block;
-  width: 30%;
-}
-
-.resto__imagen3 {
-  display: inline-block;
-  width: 30%;
-}
-
 .eventos {
   display: flex;
   flex-direction: column;
@@ -1865,8 +1844,9 @@ body {
   }
   .novedades {
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 20% 5% auto 25% 5% auto 25% 5% auto 25% 5% auto;
+    padding: 10px;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 5% auto 25% 5% auto 25% 5% 10% 15% 5% 5%;
     grid-template-areas: "curso . . ." "curso__ti . . ." "curso__txt . . ." "face . . ." "face__ti . . ." "face__txt . . ." "insta . . ." "insta__ti . . ." "insta__txt . . ." "espu . . ." "espu__ti . . ." "espu__txt . . .";
     align-items: center;
     justify-items: center;
@@ -1919,7 +1899,7 @@ body {
     grid-area: espu;
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 60%;
   }
   .espumosa__titulo1 {
     grid-area: espu__ti;
@@ -1934,7 +1914,7 @@ body {
     margin-top: 90%;
     margin-bottom: 55%;
     grid-template-columns: auto;
-    grid-template-rows: 50% 8% 8% 8% 50% 8% 10%;
+    grid-template-rows: 40% 5% 15% 8% 40% 5% 10%;
     grid-template-areas: "evento__img" "evento__ti" "evento__tx" "evento__mas" "tradi__img" "tradi__ti" "tradi__tx";
     justify-items: center;
     align-items: center;
@@ -2070,12 +2050,20 @@ body {
     padding-bottom: 4rem;
     border-bottom: 1px solid #AD9263;
   }
+  .subtitulo1__nosotros {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+    margin-top: 30%;
+    padding: 2rem;
+    border-bottom: 1px solid #AD9263;
+  }
   .nosotros__info {
-    margin-bottom: 80%;
+    margin-bottom: 150%;
     display: grid;
-    padding: 20px;
+    padding: 10px;
     grid-template-columns: 100%;
-    grid-template-rows: 20% 1% 25% 20% 5% 20% 20% 5% 18%;
+    grid-template-rows: 10% 5% 32% 10% 5% 25% 10% 5% 25%;
     justify-content: center;
     grid-template-areas: "viñedos ." "viñedos__t ." "viñedos__txt ." "argentia ." "argentia__t ." "argentia__txt ." "tradicion ." "tradicion__t ." "tradicion__txt .";
     justify-items: center;
@@ -2084,8 +2072,8 @@ body {
   }
   .nuestros__viñedos__mq2 {
     display: flex;
-    width: 300px;
-    height: 50%;
+    width: 250px;
+    height: 150px;
     grid-area: viñedos;
     justify-self: center;
   }
@@ -2113,8 +2101,8 @@ body {
   .argentia__nosotros__mq2 {
     display: flex;
     grid-area: argentia;
-    width: 300px;
-    height: 50%;
+    width: 250px;
+    height: 150px;
     justify-self: center;
   }
   .argentia__nosotros__titulo__mq2 {
@@ -2141,8 +2129,8 @@ body {
   .tradi__tecno__mq2 {
     display: flex;
     grid-area: tradicion;
-    width: 300px;
-    height: 50%;
+    width: 250px;
+    height: 150px;
     justify-self: center;
   }
   .tradi__tecno__titulo__mq2 {
@@ -2167,18 +2155,20 @@ body {
     align-items: center;
   }
   .subtitulo1__producto {
-    margin-top: 30%;
-    margin-bottom: 5%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    padding: 2rem;
+    border-bottom: 1px solid #AD9263;
     text-align: center;
     text-transform: capitalize;
-    font-size: larger;
+    font-size: medium;
   }
   .productos__grilla {
     display: grid;
-    margin-bottom: 50%;
+    margin-bottom: 80%;
     grid-template-columns: auto;
     padding: 10px;
-    grid-template-rows: 18% 2% 4% 18% 2% 4% 18% 2% 4% 18% 2% 4% 18% 2% 4%;
+    grid-template-rows: 17% 3% 4% 17% 3% 4% 17% 3% 4% 17% 3% 4% 17% 3% 4%;
     grid-template-areas: "blanco" "blanco__t" "argen1" "malbec" "malbec__t" "argen2" "rose" "rose__t" "argen3" "dulce" "dulce__t" "argen4" "personalizado" "personalizado__t" "argen5";
     justify-items: center;
     align-content: space-between;
@@ -2204,11 +2194,11 @@ body {
     grid-area: info;
     margin-bottom: 15%;
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
   }
   .contacto__info__titulo {
     text-transform: uppercase;
-    font-size: small;
+    font-size: xx-small;
     padding-bottom: 40px;
     margin-top: 10rem;
     text-align: start;
@@ -2230,7 +2220,7 @@ body {
     width: 100%;
     display: grid;
     grid-area: form;
-    margin-bottom: 30%;
+    margin-bottom: 80%;
     grid-template-columns: 48% 4% 48%;
     grid-template-rows: 10% 10% 40% 10% 40% 30% 140% 15% 30%;
     grid-template-areas: "texto . ."  ". . ." "nombre . apellido" ". . ." "mail . numero" ". . ." "mensaje mensaje mensaje" ". . ." ". . boton";
@@ -2305,7 +2295,7 @@ body {
     padding-left: 2%;
     text-align: center;
     text-transform: uppercase;
-    font-size: small;
+    font-size: x-small;
     border-style: none;
     border-radius: 5rem;
   }
@@ -2332,12 +2322,9 @@ body {
     display: inline-block;
     background-color: #AD9263;
     color: white;
-    margin-left: 40%;
-    margin-right: 32%;
+    margin-right: 30%;
+    margin-left: 30%;
     padding-top: 5%;
-    padding-right: 2%;
-    padding-left: 2%;
-    top: 20%;
     text-align: center;
     text-transform: capitalize;
     text-decoration: none;
@@ -2368,14 +2355,14 @@ body {
   }
   .eventos__titulo2 {
     margin-top: 50%;
-    margin-right: 45%;
-    margin-left: 45%;
+    margin-right: 20%;
+    margin-left: 20%;
     margin-bottom: 8%;
     padding-bottom: 35px;
     border-bottom: 2px solid #AD9263;
     text-align: center;
     text-transform: capitalize;
-    font-size: x-large;
+    font-size: large;
     font-weight: normal;
   }
   .eventos__texto2 {
@@ -2395,14 +2382,14 @@ body {
   }
   .turismo__titulo2 {
     margin-top: 10%;
-    margin-right: 45%;
-    margin-left: 45%;
+    margin-right: 20%;
+    margin-left: 20%;
     margin-bottom: 5%;
     padding-bottom: 35px;
     border-bottom: 2px solid #AD9263;
     text-align: center;
     text-transform: capitalize;
-    font-size: x-large;
+    font-size: large;
     font-weight: normal;
   }
   .turismo__texto2 {
@@ -2429,8 +2416,8 @@ body {
     display: inline-block;
     background-color: #AD9263;
     color: white;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
     padding: 1%;
     padding-left: 2%;
     top: 20%;
