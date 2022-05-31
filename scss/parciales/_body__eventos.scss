@@ -5,6 +5,8 @@
 
     &__titulo2 {
         margin-top: 20%;
+        margin-right: 45%;
+        margin-left: 45%;
         margin-bottom: 8%;
         padding-bottom: 35px;
         border-bottom: 2px solid $color-principal-dorado;
@@ -16,6 +18,8 @@
 
     &__texto2 {
         color: #898B89;
+        margin-right: 15%;
+        margin-left: 15%;
         align-self: center;
         text-align: center;
         text-transform: lowercase;
@@ -24,7 +28,60 @@
     }
 }
 
-.eventos__imagenes {
-    width: 100%; 
-    
+.turismo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__titulo2 {
+        margin-top: 10%;
+        margin-right: 45%;
+        margin-left: 45%;
+        margin-bottom: 5%;
+        padding-bottom: 35px;
+        border-bottom: 2px solid $color-principal-dorado;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: x-large;
+        font-weight: normal;
+    }
+
+    &__texto2 {
+        color: #898B89;
+        margin-right: 15%;
+        margin-left: 15%;
+        align-self: center;
+        text-align: center;
+        text-transform: lowercase;
+        font-size: small;
+        font-weight: normal;
+    }
+
+    &__texto3 {
+        color: #464946;
+        margin-right: 15%;
+        margin-left: 15%;
+        align-self: center;
+        text-align: center;
+        text-transform: lowercase;
+        font-size: small;
+        font-weight: normal;
+    }
+
+    &__reserva {
+        display: inline-block;
+        background-color: #AD9263;
+        color: white;
+        margin-left: 45%;
+        margin-right: 45%;
+        padding: 1%;
+        padding-left: 2%;
+        top: 20%;
+        text-align: center;
+        text-transform: capitalize;
+        text-decoration: none;
+        font-size: medium;
+        border-radius: .2rem;
+    }
 }
+

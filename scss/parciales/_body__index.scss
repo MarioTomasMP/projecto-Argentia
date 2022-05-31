@@ -2,11 +2,12 @@
     background-color: #25D366;
     color: white;
     border-radius: 50%;
-    padding-top: 2px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-top: .5%;
+    padding-bottom: .2%;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
     text-align: center;
-    font-size:30px;
+    font-size: xx-large;
     text-decoration: none;
     display: inline-block;
     position: fixed;
@@ -16,20 +17,6 @@
   }
   
   .banner {
-    /* display: flex;
-      flex-direction: row;
-      align-content: center;
-      background-color: white;
-      color: white;
-      margin: 1px;
-      padding: 15%;
-      padding-bottom: 4%;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      position: relative; */
     background-color: white;
     color: white;
     margin-top: 18%;
