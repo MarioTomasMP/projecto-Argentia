@@ -155,91 +155,206 @@
     margin-top: 4rem;
   }
   
-  .producto {
-    display: grid;
-    padding: 3%;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 70% 23% 15%;
-    justify-content: start;
-    align-items: center;
-    position: relative;
-    grid-template-areas: "blanco malbec rose dulce personalizado "
-   "blanco__t malbec__t rose__t dulce__t personalizado__t"
-   "argentia1 argentia2 argentia3 argentia4 argentia5";
-    justify-items: center;
-    align-content: center;
+  // .producto {
+  //   display: grid;
+  //   padding: 3%;
+  //   grid-template-columns: 20% 20% 20% 20% 20%;
+  //   grid-template-rows: 70% 23% 15%;
+  //   justify-content: start;
+  //   align-items: center;
+  //   position: relative;
+  //   grid-template-areas: "blanco malbec rose dulce personalizado "
+  //  "blanco__t malbec__t rose__t dulce__t personalizado__t"
+  //  "argentia1 argentia2 argentia3 argentia4 argentia5";
+  //   justify-items: center;
+  //   align-content: center;
+  // }
+  
+  // .vinoblanco {
+  //   display: flex;
+  //   grid-area: blanco;
+  //   width: 105%;
+  // }
+  
+  // .vinoblanco__titulo {
+  //   display: flex;
+  //   grid-area: blanco__t;
+  //   font-size: small;
+  //   text-align: start;
+  //   text-transform: capitalize;
+  //   justify-content: center;
+  // }
+  
+
+  // .vinomalbec {
+  //   display: flex;
+  //   grid-area: malbec;
+  //   width: 105%;
+  // }
+  
+  // .vinomalbec__titulo {
+  //   display: flex;
+  //   grid-area: malbec__t;
+  //   font-size: small;
+  //   text-align: center;
+  //   text-transform: capitalize;
+  //   justify-content: center;
+  // }
+  
+  // .vinorose {
+  //   display: flex;
+  //   grid-area: rose;
+  //   width: 115%;
+  // }
+  
+  // .vinorose__titulo {
+  //   display: flex;
+  //   grid-area: rose__t;
+  //   font-size: small;
+  //   text-align: center;
+  //   text-transform: capitalize;
+  //   justify-content: center;
+  // }
+  
+  // .espumantedulce {
+  //   display: flex;
+  //   grid-area: dulce;
+  //   width: 75%;
+  // }
+  
+  // .espumantedulce__titulo {
+  //   display: flex;
+  //   grid-area: dulce__t;
+  //   font-size: small;
+  //   text-align: center;
+  //   text-transform: capitalize;
+  // }
+  
+  // .vinopersonalizado {
+  //   display: flex;
+  //   grid-area: personalizado;
+  //   width: 50%;
+  //   justify-content: center;
+  // }
+  
+  // .vinopersonalizado__titulo {
+  //   display: flex;
+  //   grid-area: personalizado__t;
+  //   font-size: small;
+  //   text-align: center;
+  //   text-transform: capitalize;
+  // }
+
+  .contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .tarjeta {
+    width: 320px;
+    height: 250px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 5px;
+    text-align: center;
+    transition: all 0.50s;
+
+    &__img {
+      border-radius: 8px;
+      width: 300px;
+      height: 200px;
+    }
+    
+    &__img:hover {
+      box-shadow: 0 8px 12px $color-principal-dorado;
+    }
+    
+    &__title {
+      font-weight: 600;
+    }
+    
+    &__txt {
+      padding: 0.2rem;
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+  
+  .tarjeta__img {
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .tarjeta__img:hover {
+    box-shadow: 0 8px 12px rgba(3, 3, 3, 0.2);
+  }
+  
+  .tarjeta__title {
+    font-weight: 600;
+  }
+  
+  .tarjeta__txt {
+    padding: 0.2rem;
+    font-size: 16px;
+    font-weight: 300;
   }
   
   .vinoblanco {
-    display: flex;
-    grid-area: blanco;
-    width: 105%;
+    width: 100%;
+  
   }
   
   .vinoblanco__titulo {
-    display: flex;
-    grid-area: blanco__t;
+    padding-left: 40%;
     font-size: small;
     text-align: start;
     text-transform: capitalize;
-    justify-content: center;
   }
   
-
   .vinomalbec {
-    display: flex;
-    grid-area: malbec;
-    width: 105%;
+    width: 100%;
+    height: 75%;
   }
   
   .vinomalbec__titulo {
-    display: flex;
-    grid-area: malbec__t;
+    padding-top: 5%;
     font-size: small;
     text-align: center;
     text-transform: capitalize;
-    justify-content: center;
   }
   
   .vinorose {
-    display: flex;
-    grid-area: rose;
-    width: 115%;
+    width: 100%;
   }
   
   .vinorose__titulo {
-    display: flex;
-    grid-area: rose__t;
     font-size: small;
     text-align: center;
     text-transform: capitalize;
-    justify-content: center;
   }
   
   .espumantedulce {
-    display: flex;
-    grid-area: dulce;
-    width: 75%;
+    width: 100%;
+    height: 75%;
   }
   
   .espumantedulce__titulo {
-    display: flex;
-    grid-area: dulce__t;
+    padding-top: 6%;
     font-size: small;
     text-align: center;
     text-transform: capitalize;
   }
   
   .vinopersonalizado {
-    display: flex;
-    grid-area: personalizado;
-    width: 50%;
+    width: 100%;
     justify-content: center;
   }
   
   .vinopersonalizado__titulo {
-    display: flex;
-    grid-area: personalizado__t;
     font-size: small;
     text-align: center;
     text-transform: capitalize;
@@ -247,6 +362,8 @@
   
   .subtitulo3 {
     color: #FFBD21;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid $color-principal-dorado;
     text-align: center;
     text-transform: capitalize;
     font-size: larger;

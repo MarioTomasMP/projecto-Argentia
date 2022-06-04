@@ -1,0 +1,77 @@
+/*html*/
+
+<section class="seccion">
+            <div class="contenedor">
+                <div class="tarjeta">
+                    <img class="vinoblanco vinoblanco__mq2" src="./img/images.jpg" alt="">
+                    <h4 class="vinoblanco__titulo vinoblanco__titulo__mq2">blanco</h4>
+                    <p class="argentia1 argentia1__mq2">argentia</p>
+                </div>
+                <div class="tarjeta">
+                    <img class="vinomalbec vinomalbec__mq2" src="./img/images 2.jpg" alt="">
+                    <h4 class="vinomalbec__titulo vinomalbec__titulo__mq2">malbec</h4>
+                    <p class="argentia1 argentia1__mq2">argentia</p>
+                </div>
+                <div class="tarjeta">
+                    <img class="vinorose vinorose__mq2" src="./img/images 3.png" alt="">
+                    <h4 class="vinorose__titulo vinorose__titulo__mq2">rose</h4>
+                    <p class="argentia1 argentia1__mq2">argentia</p>
+                </div>
+                <div class="tarjeta">
+                    <img class="espumantedulce espumantedulce__mq2" src="./img/dulce.jpg" alt="">
+                    <h4 class="espumantedulce__titulo espumantedulce__titulo__mq2">dulce</h4>
+                    <p class="argentia1 argentia1__mq2">argentia</p>
+                </div>
+                <div class="tarjeta">
+                    <img class="vinopersonalizado vinopersonalizado__mq2" src="./img/pampa_tango_argentia.png" alt="">
+                    <h4 class="vinopersonalizado__titulo vinopersonalizado__titulo__mq2">perso</h4>
+                    <p class="argentia1 argentia1__mq2">argentia</p>
+                </div>
+            </div>
+        </section>
+
+/*css*/
+
+.contenedor {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.tarjeta {
+  width: 320px;
+  height: 430px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 5px;
+  text-align: center;
+  transition: all 0.50s;
+}
+
+.tarjeta__img {
+  border-radius: 8px;
+  width: 200px;
+  height: 150px;
+}
+
+.tarjeta__img1 {
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+}
+
+.tarjeta__img:hover {
+  box-shadow: 0 8px 12px rgba(3, 3, 3, 0.2);
+}
+
+.tarjeta__title {
+  font-weight: 600;
+}
+
+.tarjeta__txt {
+  padding: 0.2rem;
+  font-size: 16px;
+  font-weight: 300;
+}
