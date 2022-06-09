@@ -376,53 +376,37 @@ body {
 }
 
 .tarjeta {
-  width: 320px;
-  height: 250px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 255px;
   overflow: hidden;
-  margin: 5px;
+  margin: auto;
   text-align: center;
   transition: all 0.50s;
 }
 
 .tarjeta__img {
   border-radius: 8px;
-  width: 300px;
-  height: 200px;
+  width: 270px;
+  height: 190px;
+  padding-bottom: .2rem;
 }
 
 .tarjeta__img:hover {
-  box-shadow: 0 8px 12px #AD9263;
+  box-shadow: 0 8px 3px #898B89;
 }
 
 .tarjeta__title {
-  font-weight: 600;
+  font-weight: small;
+  font-size: small;
+  padding-top: 0.7rem;
+  text-transform: uppercase;
 }
 
 .tarjeta__txt {
   padding: 0.2rem;
   font-size: 16px;
   font-weight: 300;
-}
-
-.tarjeta__img {
-  border-radius: 8px;
-  width: 300px;
-  height: 200px;
-}
-
-.tarjeta__img:hover {
-  box-shadow: 0 8px 12px rgba(3, 3, 3, 0.2);
-}
-
-.tarjeta__title {
-  font-weight: 600;
-}
-
-.tarjeta__txt {
-  padding: 0.2rem;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: small;
 }
 
 .vinoblanco {
@@ -1315,7 +1299,7 @@ body {
   .banner {
     background-color: white;
     color: white;
-    margin-top: 18%;
+    margin-top: 25%;
     padding-bottom: 4%;
     top: 0;
     right: 0;
@@ -1355,25 +1339,45 @@ body {
   }
   .info {
     display: grid;
-    grid-template-columns: 30% 2% 30%;
-    grid-template-rows: 50% 12% 35% 15%;
+    grid-template-columns: 42% 6% 42%;
+    grid-template-rows: 50% 15% 30% 1%;
     justify-content: space-evenly;
     align-items: end;
-    justify-items: stretch;
-    align-content: stretch;
+    justify-items: center;
+    align-content: center;
     grid-template-areas: "evento . tradi" "evento__t . tradi__t" "evento__txt . tradi__txt" "evento__mi . .";
   }
-  .producto {
-    display: grid;
-    padding: 3%;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 55% 35% 10%;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: space-between;
-    justify-items: center;
-    position: relative;
-    grid-template-areas: "blanco malbec rose dulce personalizado " "blanco__t malbec__t rose__t dulce__t personalizado__t" "argentia1 argentia2 argentia3 argentia4 argentia5";
+  .contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: flex-start;
+  }
+  .tarjeta {
+    width: 260px;
+    height: 260px;
+    padding: 3px;
+    overflow: hidden;
+    margin: 2px;
+    text-align: center;
+    transition: all 0.50s;
+  }
+  .tarjeta__img {
+    border-radius: 8px;
+    width: 250px;
+    height: 180px;
+  }
+  .tarjeta__img:hover {
+    box-shadow: 0 8px 3px #898B89;
+  }
+  .tarjeta__title {
+    font-weight: 600;
+  }
+  .tarjeta__txt {
+    padding: 0.2rem;
+    font-size: 16px;
+    font-weight: 300;
   }
   .subtitulo1__nosotros {
     text-align: center;
@@ -1782,12 +1786,11 @@ body {
     position: fixed;
     background-color: white;
     padding: 0.5rem;
-    /* padding-top: 2rem; */
     display: flex;
     align-items: center;
     justify-items: center;
     width: 100%;
-    height: 22%;
+    height: 20%;
     z-index: 20;
     align-content: center;
     flex-wrap: nowrap;
@@ -1845,7 +1848,7 @@ body {
   .banner {
     background-color: white;
     color: white;
-    margin-top: 50%;
+    margin-top: 240px;
     padding-bottom: 4%;
     top: 0;
     right: 0;
@@ -1875,8 +1878,10 @@ body {
   .novedades {
     display: grid;
     padding: 10px;
+    width: 100%;
+    height: 100%;
     grid-template-columns: 100%;
-    grid-template-rows: 20% 5% auto 25% 5% auto 25% 5% 10% 15% 5% 5%;
+    grid-template-rows: 20% 5% auto 25% 5% auto 25% 5% 10% 19% 5% 10%;
     grid-template-areas: "curso . . ." "curso__ti . . ." "curso__txt . . ." "face . . ." "face__ti . . ." "face__txt . . ." "insta . . ." "insta__ti . . ." "insta__txt . . ." "espu . . ." "espu__ti . . ." "espu__txt . . .";
     align-items: center;
     justify-items: center;
@@ -1941,8 +1946,10 @@ body {
   }
   .info {
     display: grid;
-    margin-top: 90%;
-    margin-bottom: 55%;
+    width: 100%;
+    height: 100%;
+    margin-top: 100%;
+    margin-bottom: 20%;
     grid-template-columns: auto;
     grid-template-rows: 40% 5% 15% 8% 40% 5% 10%;
     grid-template-areas: "evento__img" "evento__ti" "evento__tx" "evento__mas" "tradi__img" "tradi__ti" "tradi__tx";
@@ -1989,94 +1996,59 @@ body {
     text-align: center;
     text-transform: capitalize;
     font-size: larger;
-    margin-top: 98%;
+    margin-top: 30%;
   }
-  .producto {
-    display: grid;
-    margin-bottom: 120%;
-    grid-template-columns: 80%;
-    grid-template-rows: 18% 5% 7% 18% 5% 6% 18% 5% 7% 18% 5% 7% 18% 5% 7%;
-    grid-template-areas: "blanco__img" "blanco__ti" "argen1" "malbec__img" "malbec__ti" "argen2" "rose__img" "rose__ti" "argen3" "dulce__img" "dulce__ti" "argen4" "personalizado__img" "personalizado__ti" "argen5";
+  .contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: flex-start;
     align-items: center;
-    justify-items: center;
-    justify-content: center;
-    align-content: space-between;
   }
-  .vinoblanco__mq2 {
-    display: flex;
-    justify-content: center;
-    grid-area: blanco__img;
-    width: 75%;
+  .tarjeta {
+    width: 260px;
+    height: 260px;
+    padding: 3px;
+    overflow: hidden;
+    margin: 2px;
+    text-align: center;
+    transition: all 0.50s;
   }
-  .vinoblanco__titulo__mq2 {
-    grid-area: blanco__ti;
-    display: flex;
+  .tarjeta__img {
+    border-radius: 8px;
+    width: 250px;
+    height: 180px;
   }
-  .argentia1__mq2 {
-    grid-area: argen1;
-    display: flex;
+  .tarjeta__img:hover {
+    box-shadow: 0 8px 3px #898B89;
   }
-  .vinomalbec__mq2 {
-    display: flex;
-    grid-area: malbec__img;
-    align-content: center;
-    width: 75%;
+  .tarjeta__title {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #464946;
   }
-  .vinomalbec__titulo__mq2 {
-    grid-area: malbec__ti;
-    display: flex;
+  .tarjeta__txt {
+    padding: 0.2rem;
+    color: #898B89;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: uppercase;
   }
-  .argentia2__mq2 {
-    grid-area: argen2;
-    display: flex;
-  }
-  .vinorose__mq2 {
-    grid-area: rose__img;
-    display: flex;
-    justify-content: center;
-    width: 80%;
-  }
-  .vinorose__titulo__mq2 {
-    grid-area: rose__ti;
-    display: flex;
-  }
-  .argentia3__mq2 {
-    grid-area: argen3;
-    display: flex;
-  }
-  .espumantedulce__mq2 {
-    grid-area: dulce__img;
-    display: flex;
-    justify-content: center;
-    width: 55%;
-  }
-  .espumantedulce__titulo__mq2 {
-    grid-area: dulce__ti;
-    display: flex;
-  }
-  .argentia4__mq2 {
-    grid-area: argen4;
-    display: flex;
-  }
-  .vinopersonalizado__mq2 {
-    grid-area: personalizado__img;
-    display: flex;
-    justify-content: center;
-    width: 35%;
-  }
-  .vinopersonalizado__titulo__mq2 {
-    grid-area: personalizado__ti;
-    display: flex;
-  }
-  .argentia5__mq2 {
-    grid-area: argen5;
-    display: flex;
+  .subtitulo3 {
+    color: #FFBD21;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #AD9263;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+    margin-top: 1rem;
   }
   .subtitulo1__mq {
     text-align: center;
     text-transform: capitalize;
     font-size: larger;
-    margin-top: 38rem;
+    margin-top: 2rem;
     padding-bottom: 4rem;
     border-bottom: 1px solid #AD9263;
   }
@@ -2084,16 +2056,16 @@ body {
     text-align: center;
     text-transform: capitalize;
     font-size: larger;
-    margin-top: 30%;
+    margin-top: 50%;
     padding: 2rem;
     border-bottom: 1px solid #AD9263;
   }
   .nosotros__info {
-    margin-bottom: 150%;
+    margin-bottom: 100%;
     display: grid;
     padding: 10px;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 5% 32% 10% 5% 25% 10% 5% 25%;
+    grid-template-rows: 10% 8% 32% 10% 8% 25% 10% 8% 15%;
     justify-content: center;
     grid-template-areas: "viñedos ." "viñedos__t ." "viñedos__txt ." "argentia ." "argentia__t ." "argentia__txt ." "tradicion ." "tradicion__t ." "tradicion__txt .";
     justify-items: center;
@@ -2185,7 +2157,7 @@ body {
     align-items: center;
   }
   .subtitulo1__producto {
-    margin-top: 20%;
+    margin-top: 50%;
     margin-bottom: 10%;
     padding: 2rem;
     border-bottom: 1px solid #AD9263;
@@ -2384,7 +2356,7 @@ body {
     justify-content: center;
   }
   .eventos__titulo2 {
-    margin-top: 50%;
+    margin-top: 65%;
     margin-right: 20%;
     margin-left: 20%;
     margin-bottom: 8%;
