@@ -7,12 +7,12 @@
         margin-top: 20%;
         margin-right: 45%;
         margin-left: 45%;
-        margin-bottom: 8%;
-        padding-bottom: 35px;
-        border-bottom: 2px solid $color-principal-dorado;
+        margin-bottom: 3%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $color-principal-dorado;
         text-align: center;
         text-transform: capitalize;
-        font-size: x-large;
+        font-size: larger;
         font-weight: normal;
     }
 
@@ -34,15 +34,15 @@
     justify-content: center;
 
     &__titulo2 {
-        margin-top: 10%;
+        margin-top: 3%;
         margin-right: 45%;
         margin-left: 45%;
-        margin-bottom: 5%;
-        padding-bottom: 35px;
-        border-bottom: 2px solid $color-principal-dorado;
+        margin-bottom: 3%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $color-principal-dorado;
         text-align: center;
         text-transform: capitalize;
-        font-size: x-large;
+        font-size: larger;
         font-weight: normal;
     }
 
@@ -74,8 +74,9 @@
         color: white;
         margin-left: 45%;
         margin-right: 45%;
-        padding: 1%;
-        padding-left: 2%;
+        margin-bottom: 2rem;
+        padding: .8%;
+        padding-left: 1%;
         top: 20%;
         text-align: center;
         text-transform: capitalize;
@@ -85,3 +86,19 @@
     }
 }
 
+.carousel-item1 {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.carousel-control-prev1 {
+    left: 110px;
+}
+
+.carousel-control-next1 {
+    right: 110px;
+}
+
+.carousel-indicators{
+    display: none;
+}

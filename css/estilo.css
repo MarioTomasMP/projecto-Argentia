@@ -305,6 +305,7 @@ body {
 .facebook__texto {
   display: flex;
   padding: 5px;
+  padding-left: 15px;
   grid-area: face__txt;
   text-transform: lowercase;
   font-size: small;
@@ -353,6 +354,7 @@ body {
 .espumosa__texto {
   display: flex;
   padding: 5px;
+  margin-left: 30px;
   grid-area: espumosa__txt;
   text-transform: lowercase;
   font-size: small;
@@ -698,9 +700,10 @@ body {
   text-align: center;
   text-transform: capitalize;
   font-size: larger;
-  margin-top: 15%;
-  padding-bottom: 50px;
-  border-bottom: 2px solid #AD9263;
+  padding-top: 19%;
+  padding-bottom: 30px;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #AD9263;
 }
 
 .banner__nosotros {
@@ -732,10 +735,10 @@ body {
   display: grid;
   padding: 50px;
   padding-top: 0%;
-  grid-template-columns: repeat(3, 30%);
-  grid-template-rows: 50% 20% 60%;
+  grid-template-columns: 30% 8% 30% 4% 30%;
+  grid-template-rows: 50% 10% 60%;
   justify-content: space-evenly;
-  grid-template-areas: "viñedos argentia tradicion" "viñedos__t argentia__t tradicion__t" "viñedos__txt argentia__txt tradicion__txt";
+  grid-template-areas: "viñedos . argentia . tradicion" "viñedos__t . argentia__t . tradicion__t" "viñedos__txt . argentia__txt . tradicion__txt";
 }
 
 .nuestros__viñedos {
@@ -818,7 +821,9 @@ body {
 
 .subtitulo1__producto {
   margin-top: 18%;
-  margin-bottom: 5%;
+  margin-bottom: 2rem;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #AD9263;
   text-align: center;
   text-transform: capitalize;
   font-size: larger;
@@ -990,6 +995,21 @@ body {
   border-radius: .2rem;
 }
 
+.carousel-inner2 {
+  position: relative;
+  width: 64%;
+  margin-left: 18%;
+  padding: 2rem;
+}
+
+.carousel-control-prev2 {
+  left: 170px;
+}
+
+.carousel-control-next2 {
+  right: 170px;
+}
+
 .eventos {
   display: flex;
   flex-direction: column;
@@ -1000,12 +1020,12 @@ body {
   margin-top: 20%;
   margin-right: 45%;
   margin-left: 45%;
-  margin-bottom: 8%;
-  padding-bottom: 35px;
-  border-bottom: 2px solid #AD9263;
+  margin-bottom: 3%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #AD9263;
   text-align: center;
   text-transform: capitalize;
-  font-size: x-large;
+  font-size: larger;
   font-weight: normal;
 }
 
@@ -1027,15 +1047,15 @@ body {
 }
 
 .turismo__titulo2 {
-  margin-top: 10%;
+  margin-top: 3%;
   margin-right: 45%;
   margin-left: 45%;
-  margin-bottom: 5%;
-  padding-bottom: 35px;
-  border-bottom: 2px solid #AD9263;
+  margin-bottom: 3%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #AD9263;
   text-align: center;
   text-transform: capitalize;
-  font-size: x-large;
+  font-size: larger;
   font-weight: normal;
 }
 
@@ -1067,14 +1087,32 @@ body {
   color: white;
   margin-left: 45%;
   margin-right: 45%;
-  padding: 1%;
-  padding-left: 2%;
+  margin-bottom: 2rem;
+  padding: .8%;
+  padding-left: 1%;
   top: 20%;
   text-align: center;
   text-transform: capitalize;
   text-decoration: none;
   font-size: medium;
   border-radius: .2rem;
+}
+
+.carousel-item1 {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.carousel-control-prev1 {
+  left: 110px;
+}
+
+.carousel-control-next1 {
+  right: 110px;
+}
+
+.carousel-indicators {
+  display: none;
 }
 
 .mapa {

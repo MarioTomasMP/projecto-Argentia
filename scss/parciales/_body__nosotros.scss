@@ -1,10 +1,11 @@
 .subtitulo1__nosotros {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: larger;
-    margin-top: 15%;
-    padding-bottom: 50px;
-    border-bottom: 2px solid #AD9263;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: larger;
+  padding-top: 19%;
+  padding-bottom: 30px;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid $color-principal-dorado;
   }
   
   .banner__nosotros {
@@ -36,12 +37,12 @@
     display: grid;
     padding: 50px;
     padding-top: 0%;
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: 50% 20% 60%;
+    grid-template-columns: 30% 8% 30% 4% 30%;
+    grid-template-rows: 50% 10% 60%;
     justify-content: space-evenly;
-    grid-template-areas: "viñedos argentia tradicion"
-   "viñedos__t argentia__t tradicion__t"
-   "viñedos__txt argentia__txt tradicion__txt";
+    grid-template-areas: "viñedos . argentia . tradicion"
+   "viñedos__t . argentia__t . tradicion__t"
+   "viñedos__txt . argentia__txt . tradicion__txt";
   }
   
   .nuestros__viñedos {
