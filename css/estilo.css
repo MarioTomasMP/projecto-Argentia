@@ -42,22 +42,6 @@ body {
 }
 
 .header {
-  /* position: fixed;
-      background-color: white;
-      padding: 0.5rem;
-      padding-top: 2rem;
-      display: grid;
-      grid-template-columns: 25% 50% 25%;
-      grid-template-rows: 50% 50%;
-      grid-template-areas: 
-      "header__txt header__logo header__redes"
-      "nav nav nav";
-      justify-content: space-between;
-      align-items: center;
-      justify-items: center;
-      width: 100%;
-      height: 26%;
-      z-index: 13; */
   position: fixed;
   background-color: white;
   padding: 0.5rem;
@@ -71,7 +55,7 @@ body {
   justify-items: center;
   width: 100%;
   height: 26%;
-  z-index: 13;
+  z-index: 100;
   align-content: space-between;
 }
 
@@ -127,6 +111,10 @@ body {
   text-decoration: none;
 }
 
+.nav__enlace1__negro:hover {
+  color: #AD9263;
+}
+
 .nav__enlace2 {
   display: inline;
   padding-right: 1rem;
@@ -139,6 +127,10 @@ body {
   padding-right: 1rem;
   color: black;
   text-decoration: none;
+}
+
+.nav__enlace2__negro:hover {
+  color: #AD9263;
 }
 
 .nav__enlace3 {
@@ -155,6 +147,10 @@ body {
   text-decoration: none;
 }
 
+.nav__enlace3__negro:hover {
+  color: #AD9263;
+}
+
 .nav__enlace4 {
   display: inline;
   padding-right: 1rem;
@@ -167,6 +163,10 @@ body {
   padding-right: 1rem;
   color: black;
   text-decoration: none;
+}
+
+.nav__enlace4__negro:hover {
+  color: #AD9263;
 }
 
 .nav__enlace5 {
@@ -183,6 +183,10 @@ body {
   text-decoration: none;
 }
 
+.nav__enlace5__negro:hover {
+  color: #AD9263;
+}
+
 .nav__enlace6 {
   display: inline;
   padding-right: 1rem;
@@ -195,6 +199,10 @@ body {
   padding-right: 1rem;
   color: black;
   text-decoration: none;
+}
+
+.nav__enlace6__negro:hover {
+  color: #AD9263;
 }
 
 .nav__enlace7 {
@@ -228,6 +236,11 @@ body {
   bottom: 1rem;
   left: 1rem;
   z-index: 12;
+}
+
+.whatsapp:hover {
+  color: white;
+  background-color: #22b959;
 }
 
 .banner {
@@ -393,10 +406,6 @@ body {
   padding-bottom: .2rem;
 }
 
-.tarjeta__img:hover {
-  box-shadow: 0 8px 3px #898B89;
-}
-
 .tarjeta__title {
   font-weight: small;
   font-size: small;
@@ -479,12 +488,12 @@ body {
 
 .info {
   display: grid;
-  grid-template-columns: 30% 2% 30%;
-  grid-template-rows: 50% 25% 35% 10%;
+  grid-template-columns: 40% 20% 40%;
+  grid-template-rows: 65% 10% 22% 10%;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   justify-items: center;
-  align-content: space-between;
+  align-content: center;
   grid-template-areas: "evento . tradi" "evento__t . tradi__t" "evento__txt . tradi__txt" "evento__mi . .";
 }
 
@@ -510,6 +519,7 @@ body {
   font-size: medium;
   text-transform: uppercase;
   text-align: center;
+  text-decoration: none;
 }
 
 .eventos__texto {
@@ -523,9 +533,11 @@ body {
   font-size: smaller;
   text-transform: inherit;
   text-align: justify;
+  text-decoration: none;
 }
 
 .eventos__masinfo {
+  color: #AD9263;
   display: flex;
   flex-direction: auto;
   justify-content: center;
@@ -535,6 +547,11 @@ body {
   font-size: smaller;
   text-transform: inherit;
   text-align: justify;
+  text-decoration: none;
+}
+
+.eventos__masinfo:hover {
+  color: #898B89;
 }
 
 .tradicion {
@@ -559,6 +576,7 @@ body {
   font-size: medium;
   text-transform: uppercase;
   text-align: center;
+  text-decoration: none;
 }
 
 .tradicion__texto {
@@ -572,36 +590,58 @@ body {
   font-size: smaller;
   text-transform: inherit;
   text-align: justify;
+  text-decoration: none;
 }
 
 .redes__facebook {
+  background: #ece7e7;
   color: #AD9263;
   border: 50%;
-  padding-top: 1px;
-  padding-left: 7px;
-  padding-right: 7px;
+  border-radius: 50%;
+  padding-top: 4px;
+  padding-left: 9px;
+  padding-right: 9px;
   font-size: 25px;
   text-decoration: none;
+}
+
+.redes__facebook:hover {
+  background-color: #AD9263;
+  color: #ece7e7;
 }
 
 .redes__instagram {
+  background: #ece7e7;
   color: #AD9263;
   border: 50%;
-  padding-top: 1px;
-  padding-left: 7px;
-  padding-right: 7px;
+  border-radius: 50%;
+  padding-top: 4px;
+  padding-left: 9px;
+  padding-right: 9px;
   font-size: 25px;
   text-decoration: none;
 }
 
+.redes__instagram:hover {
+  background-color: #AD9263;
+  color: #ece7e7;
+}
+
 .redes__whatsapp {
+  background: #ece7e7;
   color: #AD9263;
   border: 50%;
-  padding-top: 1px;
-  padding-left: 7px;
-  padding-right: 7px;
+  border-radius: 50%;
+  padding-top: 4px;
+  padding-left: 9px;
+  padding-right: 9px;
   font-size: 25px;
   text-decoration: none;
+}
+
+.redes__whatsapp:hover {
+  background-color: #AD9263;
+  color: #ece7e7;
 }
 
 .argentia1 {
@@ -684,16 +724,28 @@ body {
   padding-right: 0.5rem;
 }
 
+.footer__enlace1:hover {
+  color: #AD9263;
+}
+
 .footer__enlace2 {
   color: #9D9D9D;
   text-decoration: none;
   padding-right: 0.5rem;
 }
 
+.footer__enlace2:hover {
+  color: #AD9263;
+}
+
 .footer__enlace3 {
   color: #9D9D9D;
   text-decoration: none;
   padding-right: 0.5rem;
+}
+
+.footer__enlace3:hover {
+  color: #AD9263;
 }
 
 .subtitulo1__nosotros {
@@ -995,19 +1047,24 @@ body {
   border-radius: .2rem;
 }
 
+.resto__reserva:hover {
+  color: white;
+  background: #424242;
+}
+
 .carousel-inner2 {
   position: relative;
-  width: 64%;
-  margin-left: 18%;
+  width: 48%;
+  margin-left: 26%;
   padding: 2rem;
 }
 
 .carousel-control-prev2 {
-  left: 170px;
+  left: 270px;
 }
 
 .carousel-control-next2 {
-  right: 170px;
+  right: 270px;
 }
 
 .eventos {
@@ -1094,8 +1151,13 @@ body {
   text-align: center;
   text-transform: capitalize;
   text-decoration: none;
-  font-size: medium;
+  font-size: small;
   border-radius: .2rem;
+}
+
+.turismo__reserva:hover {
+  color: white;
+  background: #424242;
 }
 
 .carousel-item1 {
@@ -1168,7 +1230,7 @@ body {
 }
 
 .redes__contacto {
-  font-size: medium;
+  font-size: x-large;
   align-self: flex-start;
 }
 
@@ -1193,7 +1255,6 @@ body {
 .form__nombre {
   display: flex;
   grid-area: nombre;
-  text-transform: capitalize;
   font-size: x-small;
   background-color: #F8F8F8;
   padding-left: 10px;
@@ -1204,7 +1265,6 @@ body {
 .form__apellido {
   display: flex;
   grid-area: apellido;
-  text-transform: capitalize;
   font-size: x-small;
   background-color: #F8F8F8;
   padding-left: 10px;
@@ -1215,7 +1275,6 @@ body {
 .form__mail {
   display: flex;
   grid-area: mail;
-  text-transform: initial;
   font-size: x-small;
   background-color: #F8F8F8;
   padding-left: 10px;
@@ -1226,7 +1285,6 @@ body {
 .form__numero {
   display: flex;
   grid-area: numero;
-  text-transform: capitalize;
   font-size: x-small;
   background-color: #F8F8F8;
   padding-left: 10px;
@@ -1237,7 +1295,6 @@ body {
 .form__mensaje {
   display: flex;
   grid-area: mensaje;
-  text-transform: capitalize;
   font-size: x-small;
   background-color: #F8F8F8;
   padding-left: 10px;
@@ -1257,9 +1314,14 @@ body {
   padding-left: 2%;
   text-align: center;
   text-transform: uppercase;
-  font-size: medium;
+  font-size: small;
   border-style: none;
   border-radius: 5rem;
+}
+
+.form__boton:hover {
+  color: white;
+  background: #424242;
 }
 
 /* media querys */
@@ -1421,14 +1483,13 @@ body {
     text-align: center;
     text-transform: capitalize;
     font-size: larger;
-    margin-top: 25%;
+    margin-top: 5%;
     border-bottom: 1px solid #AD9263;
   }
   .banner__nosotros {
     background-color: white;
     color: white;
-    margin-left: 8%;
-    width: 81%;
+    width: 97%;
     position: relative;
     justify-content: center;
   }
@@ -1436,10 +1497,10 @@ body {
     margin: 40px;
     margin-bottom: 4rem;
     display: grid;
-    padding: 20px;
+    padding: 10px;
     padding-top: 0%;
     grid-template-columns: repeat(3, 40%);
-    grid-template-rows: 50% 20% 60%;
+    grid-template-rows: 50% 8% 50%;
     justify-content: space-evenly;
     grid-template-areas: "viñedos argentia tradicion" "viñedos__t argentia__t tradicion__t" "viñedos__txt argentia__txt tradicion__txt";
   }
@@ -1477,7 +1538,7 @@ body {
     display: flex;
     grid-area: argentia;
     width: 90%;
-    height: 90%;
+    height: 80%;
     justify-self: center;
   }
   .argentia__nosotros__titulo__mq1 {
@@ -1507,7 +1568,7 @@ body {
     display: flex;
     grid-area: tradicion;
     width: 90%;
-    height: 90%;
+    height: 80%;
     justify-self: center;
   }
   .tradi__tecno__titulo__mq1 {
@@ -1682,11 +1743,11 @@ body {
   }
   .eventos__titulo2 {
     margin-top: 30%;
-    margin-right: 45%;
-    margin-left: 45%;
+    margin-right: 38%;
+    margin-left: 38%;
     margin-bottom: 8%;
     padding-bottom: 35px;
-    border-bottom: 2px solid #AD9263;
+    border-bottom: 1px solid #AD9263;
     text-align: center;
     text-transform: capitalize;
     font-size: x-large;
@@ -1708,12 +1769,12 @@ body {
     justify-content: center;
   }
   .turismo__titulo2 {
-    margin-top: 10%;
-    margin-right: 45%;
-    margin-left: 45%;
+    margin-top: 5%;
+    margin-right: 38%;
+    margin-left: 38%;
     margin-bottom: 5%;
     padding-bottom: 35px;
-    border-bottom: 2px solid #AD9263;
+    border-bottom: 1px solid #AD9263;
     text-align: center;
     text-transform: capitalize;
     font-size: x-large;
@@ -1777,8 +1838,8 @@ body {
     display: inline-block;
     background-color: #AD9263;
     color: white;
-    margin-left: 45%;
-    margin-right: 38%;
+    margin-left: 40%;
+    margin-right: 40%;
     padding-top: 1.5%;
     padding-right: 2%;
     padding-left: 2%;
@@ -1789,22 +1850,31 @@ body {
     font-size: medium;
     border-radius: .2rem;
   }
-  .resto__imagenes {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
+  .carousel-inner-tablet {
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    padding: 2rem;
   }
-  .resto__imagen1 {
-    display: inline-block;
-    width: 30%;
+  .carousel-item-tablet {
+    width: 100%;
+    margin-left: auto;
   }
-  .resto__imagen2 {
-    display: inline-block;
-    width: 30%;
+  .carousel-item-tablet-control-next-tablet {
+    right: 20px;
   }
-  .resto__imagen3 {
-    display: inline-block;
-    width: 30%;
+  .carousel-item-tablet-control-prev-tablet {
+    left: 20px;
+  }
+  .carousel-item-tablet-resto {
+    width: 100%;
+    margin-left: auto;
+  }
+  .carousel-control-next-tablet-resto {
+    right: 120px;
+  }
+  .carousel-control-prev-tablet-resto {
+    left: 120px;
   }
 }
 
@@ -1886,7 +1956,7 @@ body {
   .banner {
     background-color: white;
     color: white;
-    margin-top: 240px;
+    margin-top: 200px;
     padding-bottom: 4%;
     top: 0;
     right: 0;
@@ -1900,12 +1970,12 @@ body {
     background-color: #25D366;
     color: white;
     border-radius: 50%;
-    padding-top: .8%;
-    padding-bottom: .5%;
-    padding-left: 2%;
-    padding-right: 1.8%;
+    padding-top: 1.4%;
+    padding-bottom: 0.5%;
+    padding-left: 2.3%;
+    padding-right: 2.3%;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
     text-decoration: none;
     display: inline-block;
     position: fixed;
@@ -1981,13 +2051,14 @@ body {
   .espumosa__texto1 {
     grid-area: espu__txt;
     display: flex;
+    padding-left: 20px;
   }
   .info {
     display: grid;
     width: 100%;
     height: 100%;
-    margin-top: 100%;
-    margin-bottom: 20%;
+    margin-top: 470px;
+    margin-bottom: 70%;
     grid-template-columns: auto;
     grid-template-rows: 40% 5% 15% 8% 40% 5% 10%;
     grid-template-areas: "evento__img" "evento__ti" "evento__tx" "evento__mas" "tradi__img" "tradi__ti" "tradi__tx";
@@ -2035,6 +2106,7 @@ body {
     text-transform: capitalize;
     font-size: larger;
     margin-top: 30%;
+    margin-bottom: 3rem;
   }
   .contenedor {
     width: 100%;
@@ -2094,15 +2166,13 @@ body {
     text-align: center;
     text-transform: capitalize;
     font-size: larger;
-    margin-top: 50%;
     padding: 2rem;
     border-bottom: 1px solid #AD9263;
   }
   .nosotros__info {
-    margin-bottom: 100%;
+    margin-bottom: 300px;
     display: grid;
-    padding: 10px;
-    grid-template-columns: 100%;
+    grid-template-columns: 260px;
     grid-template-rows: 10% 8% 32% 10% 8% 25% 10% 8% 15%;
     justify-content: center;
     grid-template-areas: "viñedos ." "viñedos__t ." "viñedos__txt ." "argentia ." "argentia__t ." "argentia__txt ." "tradicion ." "tradicion__t ." "tradicion__txt .";
@@ -2205,7 +2275,7 @@ body {
   }
   .productos__grilla {
     display: grid;
-    margin-bottom: 80%;
+    margin-bottom: 300px;
     grid-template-columns: auto;
     padding: 10px;
     grid-template-rows: 17% 3% 4% 17% 3% 4% 17% 3% 4% 17% 3% 4% 17% 3% 4%;
@@ -2466,6 +2536,31 @@ body {
     text-decoration: none;
     font-size: medium;
     border-radius: .2rem;
+  }
+  .carousel-inner-mobile {
+    position: relative;
+    width: 102%;
+    margin: auto;
+  }
+  .carousel-item-mobile {
+    width: 100%;
+    margin-left: auto;
+  }
+  .carousel-control-next-mobile {
+    right: 10px;
+  }
+  .carousel-control-prev-mobile {
+    left: 10px;
+  }
+  .carousel-item-mobile-resto {
+    width: 100%;
+    margin-left: auto;
+  }
+  .carousel-control-next-mobile-resto {
+    right: 30px;
+  }
+  .carousel-control-prev-mobile-resto {
+    left: 30px;
   }
   .footer {
     flex-direction: column;

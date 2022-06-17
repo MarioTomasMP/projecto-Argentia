@@ -81,8 +81,13 @@
         text-align: center;
         text-transform: capitalize;
         text-decoration: none;
-        font-size: medium;
+        font-size: small;
         border-radius: .2rem;
+
+        &:hover {
+            color: white;
+            background: rgb(66, 66, 66);
+        }
     }
 }
 

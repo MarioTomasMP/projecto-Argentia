@@ -55,7 +55,7 @@
   
 
   .redes__contacto {
-    font-size: medium;
+    font-size: x-large;
     align-self: flex-start;
   }
 
@@ -88,7 +88,6 @@
     &__nombre {
       display: flex;
       grid-area: nombre;
-      text-transform: capitalize;
       font-size: x-small;
       background-color: #F8F8F8;
       padding-left: 10px;
@@ -99,7 +98,6 @@
     &__apellido {
       display: flex;
       grid-area: apellido;
-      text-transform: capitalize;
       font-size: x-small;
       background-color: #F8F8F8;
       padding-left: 10px;
@@ -110,7 +108,6 @@
     &__mail {
       display: flex;
       grid-area: mail;
-      text-transform: initial;
       font-size: x-small;
       background-color: #F8F8F8;
       padding-left: 10px;
@@ -121,7 +118,6 @@
     &__numero {
       display: flex;
       grid-area: numero;
-      text-transform: capitalize;
       font-size: x-small;
       background-color: #F8F8F8;
       padding-left: 10px;
@@ -132,7 +128,6 @@
     &__mensaje {
       display: flex;
       grid-area: mensaje;
-      text-transform: capitalize;
       font-size: x-small;
       background-color: #F8F8F8;
       padding-left: 10px;
@@ -151,10 +146,14 @@
       padding-left: 2%;
       text-align: center;
       text-transform: uppercase;
-      font-size: medium;
+      font-size: small;
       border-style: none;
       border-radius: 5rem;
       
+      &:hover {
+        color: white;
+        background: rgb(66, 66, 66);
+      }
   }
   }
 

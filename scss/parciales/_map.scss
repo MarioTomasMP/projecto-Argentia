@@ -1,53 +1,55 @@
 $redes: (
-    facebook: $color-principal-dorado,
-    instagram: $color-principal-dorado,
-    whatsapp: $color-principal-dorado,
-  );
+  facebook: $color-principal-dorado,
+  instagram: $color-principal-dorado,
+  whatsapp: $color-principal-dorado,
+);
+
+
 
 $argentia: (
-    argentia1: $color-secundario-gris,
-    argentia2: $color-secundario-gris,
-    argentia3: $color-secundario-gris,
-    argentia4: $color-secundario-gris,
-    argentia5: $color-secundario-gris,
-  );
-
-  $sub: (
-    text-trans: capitalize,
-    text-al: center,
-    fuente: larger,
-    padding: 4rem,
-    border: 2px solid $color-principal-dorado,
+  argentia1: $color-secundario-gris,
+  argentia2: $color-secundario-gris,
+  argentia3: $color-secundario-gris,
+  argentia4: $color-secundario-gris,
+  argentia5: $color-secundario-gris,
 );
-@each $clave, $valor in $redes {
-    .redes__#{$clave}  {
-        color: $valor; 
-        border: 50%;
-        padding-top: 1px;
-        padding-left: 7px;
-        padding-right: 7px;
-        font-size: 25px;
-        text-decoration: none;
-    }
-  }
-
-@each $clave, $valor in $argentia {
-    .#{$clave} {
-        color: $valor;
-        display: flex;
-        font-size: small;
-        justify-content: center;
-        align-self: baseline;
-    }
-    
-}
-
 
 $sub: (
-    text-trans: capitalize,
-    text-al: center,
-    fuente: larger,
-    padding: 4rem,
-    border: 2px solid $color-principal-dorado,
+  text-trans: capitalize,
+  text-al: center,
+  fuente: larger,
+  padding: 4rem,
+  border: 2px solid $color-principal-dorado,
 );
 
+@each $clave,
+$valor in $redes {
+  .redes__#{$clave} {
+    background: rgb(236, 231, 231);
+    color: $valor;
+    border: 50%;
+    border-radius: 50%;
+    padding-top: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  .redes__#{$clave}:hover {
+    background-color: $valor;
+    color: rgb(236, 231, 231);
+  }
+}
+
+@each $clave,
+$valor in $argentia {
+  .#{$clave} {
+    color: $valor;
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    align-self: baseline;
+  }
+
+}

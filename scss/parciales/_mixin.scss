@@ -1,10 +1,11 @@
 // Creando los @mixin
 
-@mixin font ($font-size, $text-transform, $text-aling) {
+@mixin font ($font-size, $text-transform, $text-aling, $text-decoration) {
     font-size: $font-size;
     text-transform: $text-transform;
     text-align: $text-aling;
-}
+    text-decoration: $text-decoration;
+}   
 
 @mixin flex ($display, $flex-direction, $justify-content, $aling-items, $aling-self) {
     display: $display;
@@ -34,7 +35,7 @@
 // armando los @include
 
 .info {
-    @include grid(grid, 30% 2% 30%, 50% 25% 35% 10%, space-evenly, center, center, space-between, "evento . tradi"
+    @include grid(grid, 40% 20% 40%, 65% 10% 22% 10%, space-evenly, stretch, center, center, "evento . tradi"
     "evento__t . tradi__t"
     "evento__txt . tradi__txt"
     "evento__mi . .");
@@ -49,21 +50,26 @@
 .eventos__titulo {
     @include flex (flex, auto, center, auto, auto);
     grid-area: evento__t;
-    @include font(medium, uppercase, center);
+    @include font(medium, uppercase, center, none);
 }
 
 .eventos__texto {
     color: #A6A79D;
     @include flex(flex, auto, center, auto, flex-start);
     grid-area: evento__txt;
-    @include font(smaller, inherit, justify);
+    @include font(smaller, inherit, justify, none);
 
 }
 
 .eventos__masinfo {
+    color: $color-principal-dorado;
     @include flex(flex, auto, center, auto , flex-start);
     grid-area: evento__mi;
-    @include font(smaller, inherit, justify);
+    @include font(smaller, inherit, justify, none);
+} 
+
+.eventos__masinfo:hover {
+    color: $color-secundario-gris;
 } 
 
 .tradicion {
@@ -75,14 +81,14 @@
 .tradicion__titulo {
     @include flex(flex, auto, center, auto, auto);
     grid-area: tradi__t;
-    @include font(medium, uppercase, center);
+    @include font(medium, uppercase, center,none);
 }
   
 .tradicion__texto {
     color: #A6A79D;
     @include flex(flex, auto, center, auto, flex-start);
     grid-area: tradi__txt;
-    @include font(smaller, inherit, justify);
+    @include font(smaller, inherit, justify,none);
 }
   
 

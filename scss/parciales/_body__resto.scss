@@ -1,24 +1,24 @@
-.resto { 
+.resto {
   display: flex;
   flex-direction: column;
   justify-items: center;
-  
+
   &__texto1 {
     color: #898B89;
     text-align: center;
     text-transform: lowercase;
     font-size: small;
     font-weight: normal;
-    }
-  
+  }
+
   &__texto2 {
     color: #818181;
     text-align: center;
     text-transform: lowercase;
     font-size: small;
     font-weight: bold;
-    }
-    
+  }
+
   &__reserva {
     display: inline-block;
     background-color: #AD9263;
@@ -34,20 +34,25 @@
     text-decoration: none;
     font-size: medium;
     border-radius: .2rem;
-    }
   }
 
-  .carousel-inner2 {
-    position: relative;
-    width: 64%;
-    margin-left: 18%;
-    padding: 2rem;
+  &__reserva:hover {
+    color: white;
+    background: rgb(66, 66, 66);
   }
+}
 
-  .carousel-control-prev2 {
-    left: 170px;
+.carousel-inner2 {
+  position: relative;
+  width: 48%;
+  margin-left: 26%;
+  padding: 2rem;
+}
+
+.carousel-control-prev2 {
+  left: 270px;
 }
 
 .carousel-control-next2 {
-    right: 170px;
+  right: 270px;
 }
