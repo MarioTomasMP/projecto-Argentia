@@ -119,13 +119,13 @@
 
   .novedades {
     display: grid;
-    padding: 3%;
-    grid-template-columns: repeat(4, 15%);
-    grid-template-rows: 100px 10% 40%;
+    /* padding: 3%; */
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 90px 9% 52%;
     justify-content: space-between;
-    justify-items: start;
-    align-items: stretch;
+    justify-items: stretch;
     align-content: space-between;
+    margin-top: 2rem;
     margin-bottom: 10%;
   }
 
@@ -143,6 +143,20 @@
       "evento__mi . .";
   }
 
+  .espumosa__texto1 {
+    margin-right: 2rem;
+  }
+
+  .eventos__mq2 {
+    width: 250px;
+    grid-area: evento;
+  }
+
+  .tradicion__mq2 {
+    width: 255px;
+    grid-area: tradi;
+  }
+
   .contenedor {
     width: 100%;
     display: flex;
@@ -156,7 +170,8 @@
     height: 260px;
     padding: 3px;
     overflow: hidden;
-    margin: 2px;
+    margin: 20px;
+    margin-top: 3rem;
     text-align: center;
     transition: all 0.50s;
 
@@ -217,12 +232,12 @@
 
   .nosotros__info {
     margin: 40px;
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
     display: grid;
     padding: 10px;
     padding-top: 0%;
     grid-template-columns: repeat(3, 40%);
-    grid-template-rows: 50% 8% 50%;
+    grid-template-rows: 30% 8% 50%;
     justify-content: space-evenly;
     grid-template-areas:
       "viñedos argentia tradicion"
@@ -339,9 +354,9 @@
 
   .productos__grilla {
     display: grid;
-    margin-bottom: 6%;
+    margin-bottom: 1rem;
     grid-template-columns: repeat(3, 30%);
-    grid-template-rows: 40% 5% 10% 40% 10% 10%;
+    grid-template-rows: 30% 7% 10% 25% 10% 10%;
     grid-template-areas:
       "blanco malbec rose"
       "blanco__t malbec__t rose__t"
@@ -436,7 +451,7 @@
     &__nombre {
       display: flex;
       grid-area: nombre;
-      text-transform: capitalize;
+      text-transform: lowercase;
       font-size: x-small;
       background-color: #F8F8F8;
       padding-left: 10px;
@@ -447,7 +462,7 @@
     &__apellido {
       display: flex;
       grid-area: apellido;
-      text-transform: capitalize;
+      text-transform: lowercase;
       font-size: x-small;
       background-color: #F8F8F8;
       padding-left: 10px;
@@ -458,7 +473,7 @@
     &__mail {
       display: flex;
       grid-area: mail;
-      text-transform: capitalize;
+      text-transform: lowercase;
       font-size: x-small;
       background-color: #F8F8F8;
       padding-left: 10px;
@@ -469,7 +484,7 @@
     &__numero {
       display: flex;
       grid-area: numero;
-      text-transform: capitalize;
+      text-transform: auto;
       font-size: x-small;
       background-color: #F8F8F8;
       padding-left: 10px;
@@ -643,15 +658,16 @@
   .carousel-item-tablet {
     width: 100%;
     margin-left: auto;
-
-    &-control-next-tablet {
-      right: 20px;
-    }
-
-    &-control-prev-tablet {
-      left: 20px;
-    }
   }
+
+  .carousel-control-prev-tablet {
+    right: 510px;
+  }
+
+  .carousel-control-next-tablet {
+    left: 510px;
+  }
+
 
   .carousel-item-tablet-resto {
     width: 100%;
@@ -664,6 +680,73 @@
 
   .carousel-control-prev-tablet-resto {
     left: 120px;
+  }
+
+
+  .footer {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &__logo {
+      margin-right: 4rem;
+      top: 0%;
+      bottom: 0%;
+      left: 0%;
+      right: 0%;
+      background-color: white;
+      padding: 10px;
+      align-content: center;
+    }
+    
+    &__texto {
+      color: #9d9d9d;
+      padding-left: 3rem;
+      text-align: start;
+      text-decoration: none;
+      text-transform: lowercase;
+      font-size: x-small;
+      align-self: center;
+    }
+    
+    &__nav {
+      text-transform: lowercase;
+      font-size: small;
+      align-self: center;
+      margin-right: 1rem;
+    }
+    
+    &__enlace1 {
+      text-decoration: none;
+      color: #9D9D9D;
+      padding-right: 0.5rem;
+
+      &:hover {
+        color: $color-principal-dorado;
+      }
+    }
+    
+    &__enlace2 {
+      color: #9D9D9D;
+      text-decoration: none;
+      padding-right: 0.5rem;
+
+      &:hover {
+        color: $color-principal-dorado;
+      }
+    }
+    
+    &__enlace3 {
+      color: #9D9D9D;
+      text-decoration: none;
+      padding-right: 0.5rem;
+
+      &:hover {
+        color: $color-principal-dorado;
+      }
+    }
   }
 
 }
@@ -1022,16 +1105,17 @@
     border-bottom: 1px solid $color-principal-dorado;
   }
 
-  .subtitulo1__nosotros {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: larger;
-    padding: 2rem;
-    border-bottom: 1px solid $color-principal-dorado;
-  }
+  // .subtitulo1__nosotros {
+  //   text-align: center;
+  //   text-transform: capitalize;
+  //   font-size: medium;
+  //   margin-top: 4rem;
+  //   padding: 2rem;
+  //   border-bottom: 1px solid $color-principal-dorado;
+  // }
 
   .nosotros__info {
-    margin-bottom: 300px;
+    margin-bottom: 320px;
     display: grid;
     grid-template-columns: 260px;
     grid-template-rows: 10% 8% 32% 10% 8% 25% 10% 8% 15%;
@@ -1238,7 +1322,7 @@
     width: 100%;
     display: grid;
     grid-area: form;
-    margin-bottom: 80%;
+    margin-bottom: 200px;
     grid-template-columns: 48% 4% 48%;
     grid-template-rows: 10% 10% 40% 10% 40% 30% 140% 15% 30%;
     grid-template-areas:
